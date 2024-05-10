@@ -1,6 +1,5 @@
 "use client";
 import { useInView } from "react-intersection-observer";
-import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
 
 import {

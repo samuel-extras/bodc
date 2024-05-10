@@ -17,13 +17,19 @@ const Hero = () => {
           generating earnings through extensive network participation.
         </p>
         <div className="flex flex-wrap gap-2">
-          <Button
-            className="bg-white text-black hover:bg-transparent hover:text-white md:text-lg font-bold"
-            variant="outline"
-            size="lg"
+          <a
+            href="https://bookodc.gitbook.io/book-of-duck-whitepaper/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Read Docs
-          </Button>
+            <Button
+              className="bg-white text-black hover:bg-transparent hover:text-white md:text-lg font-bold"
+              variant="outline"
+              size="lg"
+            >
+              Read Docs
+            </Button>
+          </a>
           <Button
             variant="outline"
             size="lg"
@@ -41,24 +47,55 @@ const Hero = () => {
           </Button>
         </div>
         <div className="flex flex-wrap items-center my-4 gap-y-4">
-          <Button className="bg-transparent hover:bg-transparent">
-            <img
-              src="https://cdn.xoxlabs.io/images/home/hero/twitter.svg"
-              alt="social_media"
-            />
-          </Button>
-          <Button className="bg-transparent hover:bg-transparent">
-            <img
-              src="https://cdn.xoxlabs.io/images/home/hero/telegram_2.svg"
-              alt="social_media"
-            />
-          </Button>
-          <Button className="bg-transparent hover:bg-transparent">
-            <img
-              src="https://cdn.xoxlabs.io/images/home/hero/telegram_channel.svg"
-              alt="social_media"
-            />
-          </Button>
+          <a
+            href="https://twitter.com/Bookodc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-transparent hover:bg-transparent">
+              <img
+                src="https://cdn.xoxlabs.io/images/home/hero/twitter.svg"
+                alt="social_media"
+              />
+            </Button>
+          </a>
+          <a
+            href="https://t.me/BookOfDuck"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-transparent hover:bg-transparent">
+              <img
+                src="https://cdn.xoxlabs.io/images/home/hero/telegram_2.svg"
+                alt="social_media"
+              />
+            </Button>
+          </a>
+          <a
+            href="https://t.me/BookODC"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-transparent hover:bg-transparent">
+              <img
+                src="https://cdn.xoxlabs.io/images/home/hero/telegram_channel.svg"
+                alt="social_media"
+              />
+            </Button>
+          </a>
+          <a
+            href="https://www.tiktok.com/@bookodc?_t=8mEerM7RGi7&_r=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-transparent hover:bg-transparent">
+              <img
+                src="https://cdn.xoxlabs.io/images/pc_tiktok.svg"
+                alt="social_media"
+                className="w-9 h-9"
+              />
+            </Button>
+          </a>
           {/* <Button className="bg-transparent hover:bg-transparent">
             <img
               src="https://cdn.xoxlabs.io/images/home/hero/discord.svg"
