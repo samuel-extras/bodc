@@ -37,6 +37,8 @@ const InstructionVideo = () => {
           id="laptopVideo"
           preload="auto"
           className="pointer-events-none"
+          muted={true}
+          controls={false}
         >
           <source
             src="https://cdn.xoxlabs.io/videos/home/DappPromo.mov"

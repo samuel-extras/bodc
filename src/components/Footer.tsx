@@ -564,7 +564,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-4">
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="http://www.partnership@bookodc.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col gap-1"
@@ -583,12 +583,12 @@ const Footer = () => {
                       fill="white"
                     ></path>
                   </svg>
-                  Partnerships Inquiries <br /> partnership@bodclabs.io
+                  Partnerships Inquiries <br /> Partnership@bookodc.com
                 </a>
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="http://www.support@bookodc.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col gap-1"
@@ -608,7 +608,7 @@ const Footer = () => {
                     ></path>
                   </svg>
                   Support Team <br />
-                  support@bodclabs.io{" "}
+                  Support@bookodc.com{" "}
                 </a>
               </li>
             </ul>

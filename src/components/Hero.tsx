@@ -119,21 +119,29 @@ const Hero = () => {
 
         <div className="flex p-3 rounded-lg border w-fit items-center border-[#222222] gap-px -z-10">
           <img
-            src="https://cdn.xoxlabs.io/images/home/hero/eth.svg"
+            src="https://www.aver.exchange/static/new_images/solana_s_white.png"
             alt="email"
-            className="email-icon"
+            className="w-4 h-4"
           />
-          <span className="text-white">ETH:</span>
+          <span className="text-white">Solana:</span>
           <input
             type="text"
             id="email"
             name="email"
             placeholder=""
             required
-            value="0x0f5C78...0748"
-            className="bg-none bg-transparent outline-none text-white max-w-fit border-b border-b-white w-32 p-0 "
+            value="KfDfv9aNc5vufv3KEGMU8ZHFdnxe9jphGzUW11hJDsC"
+            disabled
+            className="bg-none bg-transparent outline-none text-white max-w-fit border-b border-b-white w-40 p-0 "
           />
-          <div className="cursor-pointer ms-1">
+          <div
+            className="cursor-pointer ms-1"
+            onClick={() => {
+              navigator.clipboard.writeText(
+                "KfDfv9aNc5vufv3KEGMU8ZHFdnxe9jphGzUW11hJDsC"
+              );
+            }}
+          >
             <span>
               <img
                 src="https://cdn.xoxlabs.io/images/home/hero/copy.svg"
@@ -162,7 +170,8 @@ const Hero = () => {
             playsInline
             className="w-full "
             id="laptopVideo"
-            muted
+            muted={true}
+            controls={false}
           >
             <source
               src="https://cdn.xoxlabs.io/videos/home/laptop.mov"

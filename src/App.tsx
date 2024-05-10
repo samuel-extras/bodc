@@ -31,7 +31,7 @@ function App() {
       <Footer />
       <div className="bg-[#282828] py-5">
         <p className="text-sm text-center text-[#ffffffde]">
-          © 2024 XOX Labs. All Rights Reserved
+          © 2024 Bookodc. All Rights Reserved
         </p>
       </div>
     </main>
