@@ -74,7 +74,7 @@ const DevelopmentMap = () => {
               <img
                 src="https://cdn.xoxlabs.io/images/done_mobile.svg"
                 alt="milestone"
-                className="absolute top-1/2 -translate-y-1/2 -left-2 z-10 md:hidden"
+                className="absolute top-1/2 -translate-y-1/2 -left-2 md:hidden z-30"
               ></img>
               Initial Launch and Presale
             </div>
@@ -86,7 +86,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -101,7 +101,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -113,7 +113,7 @@ const DevelopmentMap = () => {
             </div>
           </div>
           <div className="h-full w-0.5 absolute left-0 translate-x-1/2 bottom-0 bg-gradient-to-b from-black to-[rgb(251,134,24)] opacity-25 hidden md:block"></div>
-          <div className="md:h-[3px] h-full border-none w-[3px] md:w-full bg-repeat-y md:bg-repeat-x [length:3px_3px] md:bg-[length:30px_3px] absolute left-0 translate-y-1/2 bottom-0 bg-gradient-to-b md:bg-gradient-to-l from-[rgb(139,234,197)] from-50% to-50% to-black bg-top hidden md:block"></div>
+          <div className="md:h-[3px] h-full border-none w-[3px] md:w-full bg-repeat-y md:bg-repeat-x [length:3px_3px] md:bg-[length:30px_3px] absolute left-0 translate-y-1/2 bottom-0 bg-gradient-to-b md:bg-gradient-to-l from-[rgb(139,234,197)] from-50% to-50% to-black bg-top hidden md:block -z-50"></div>
           <img
             src="https://cdn.xoxlabs.io/images/line_dash.svg"
             alt="milestone"
@@ -122,13 +122,13 @@ const DevelopmentMap = () => {
           <img
             src="https://cdn.xoxlabs.io/images/mile_stone_done.svg"
             alt="milestone"
-            className="-translate-x-1/2 translate-y-1/2 left-0 bottom-0 h-auto max-w-full z-10 absolute hidden md:block"
+            className="-translate-x-1/2 translate-y-1/2 left-0 bottom-0 h-auto max-w-full absolute hidden md:block z-30"
           ></img>
         </div>
         <div></div>
         <div
           ref={item2}
-          className={`relative md:pl-8 transition-all duration-2000 ease-in-out ${
+          className={`relative md:pl-8 md:z-20 transition-all duration-2000 ease-in-out ${
             item2inView
               ? "translate-x-0 opacity-100"
               : "translate-x-full opacity-0"
@@ -141,7 +141,7 @@ const DevelopmentMap = () => {
               <div className="h-0.5 w-10 absolute left-0  top-1/2 bg-gradient-to-b from-black to-[rgb(251,134,24)] md:hidden"></div>
               <img
                 src="https://cdn.xoxlabs.io/images/now_done_mobile.svg"
-                className="absolute top-1/2 -translate-y-1/2 -left-4 z-10 md:hidden"
+                className="absolute top-1/2 -translate-y-1/2 -left-4 z-30 md:hidden"
                 alt="milestone"
               ></img>
               Infrastructure and Strategic Alliances
@@ -154,7 +154,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -170,7 +170,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -184,7 +184,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -199,7 +199,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -211,17 +211,17 @@ const DevelopmentMap = () => {
             </div>
           </div>
           <div className="h-full w-0.5 absolute left-0 translate-x-1/2 bottom-0 bg-gradient-to-b from-black to-[rgb(251,134,24)] opacity-25"></div>
-          <div className="h-2 border-none w-full  absolute left-0 translate-y-1/2 bottom-0 bg-gradient-to-r from-[rgb(62,192,166)] to-[rgb(244,66,52)]"></div>
+          <div className="h-2 border-none w-full  absolute left-0 translate-y-1/2 bottom-0 bg-gradient-to-r from-[rgb(62,192,166)] to-[rgb(244,66,52)] -z-50"></div>
           <img
             src="https://cdn.xoxlabs.io/images/milestone.svg"
             alt="milestone"
-            className="-translate-x-1/2 translate-y-1/2 left-0 bottom-0 h-auto max-w-full absolute z-10"
+            className="-translate-x-1/2 translate-y-1/2 left-0 bottom-0 h-auto max-w-full z-50 absolute"
           ></img>
         </div>{" "}
         <div></div>
         <div
           ref={item3}
-          className={`relative md:pl-8 order-first md:order-none transition-all duration-2000 ease-in-out ${
+          className={`relative md:pl-8 order-first md:order-none transition-all duration-2000 ease-in-out md:-z-10 ${
             item3inView
               ? "translate-x-0 opacity-100"
               : "translate-x-full opacity-0 "
@@ -232,7 +232,7 @@ const DevelopmentMap = () => {
             alt="milestone"
             className="absolute left-0 top-0 h-auto max-w-full -translate-x-1/2 -translate-y-1/2 z-10 md:block hidden"
           />{" "}
-          <div className="mb-14">
+          <div className="my-14">
             {/* Title */}
             <div className="text-[#ffffffde] font-bold text-xl mb-4 relative pl-11 md:pl-0">
               <div className="h-0.5 w-10 absolute left-0  top-1/2 bg-gradient-to-b from-black to-[rgb(251,134,24)] md:hidden"></div>
@@ -291,12 +291,12 @@ const DevelopmentMap = () => {
             </div>
           </div>
           <div className="h-full w-0.5 absolute left-0 translate-x-1/2 bottom-0 bg-gradient-to-b from-[rgb(251,134,24)] to-[rgb(251,134,24)] opacity-25 md:block hidden"></div>
-          <div className="h-[3px] border-none w-full bg-repeat-x bg-[length:30px_3px] absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-l from-[rgb(139,234,197)] from-50% to-50% to-black bg-top -z-10 hidden md:block"></div>
+          <div className="h-[3px] border-none w-full bg-repeat-x bg-[length:30px_3px] absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-l from-[rgb(139,234,197)] from-50% to-50% to-black bg-top -z-50 hidden md:block"></div>
         </div>
         <div></div>
         <div
           ref={item4}
-          className={`relative pl-8 transition-all duration-2000 ease-in-out ${
+          className={`relative pl-8 md:z-10 transition-all duration-2000 ease-in-out ${
             item4inView
               ? "translate-x-0 opacity-100"
               : "translate-x-full opacity-0 "
@@ -345,12 +345,12 @@ const DevelopmentMap = () => {
             </div>
           </div>
           <div className="h-full w-0.5 absolute left-0 translate-x-1/2 bottom-0 bg-gradient-to-b from-[rgb(251,134,24)] to-[rgb(251,134,24)] opacity-25"></div>
-          <div className="h-2 border-none w-full  absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-r from-[rgb(155,243,203)] to-[rgb(62,192,166)] -z-10"></div>
+          <div className="h-2 border-none w-full  absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-r from-[rgb(155,243,203)] to-[rgb(62,192,166)] -z-20"></div>
         </div>
         <div></div>
         <div
           ref={item5}
-          className={`relative pl-8 transition-all duration-2000 ease-in-out ${
+          className={`relative pl-8 md:z-30 transition-all duration-2000 ease-in-out ${
             item5inView
               ? "translate-x-0 opacity-100"
               : "translate-x-full opacity-0 "
@@ -359,7 +359,7 @@ const DevelopmentMap = () => {
           <img
             src="https://cdn.xoxlabs.io/images/mile_stone_now.svg"
             alt="milestone"
-            className="absolute left-0 top-0 h-auto max-w-full -translate-x-1/2 -translate-y-1/2 z-10"
+            className="absolute left-0 top-0 h-auto max-w-full -translate-x-1/2 -translate-y-1/2 z-30"
           />{" "}
           <div className="my-14">
             {/* Title */}
@@ -374,7 +374,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -387,7 +387,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -401,7 +401,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -415,7 +415,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -429,7 +429,7 @@ const DevelopmentMap = () => {
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
+                    className="mt-1.5 flex-shrink-0 me-3 z-30"
                   />
                 </div>
                 <div className="text-[#fff9]">
@@ -441,7 +441,7 @@ const DevelopmentMap = () => {
             </div>
           </div>
           <div className="h-full w-0.5 absolute left-0 translate-x-1/2 bottom-0 bg-gradient-to-b from-[rgb(251,134,24)] to-[rgb(251,134,24)] opacity-25"></div>
-          <div className="h-2 border-none w-full  absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-r from-[rgb(244,66,52)] to-[rgb(159,58,131)] -z-10"></div>
+          <div className="h-2 border-none w-full  absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-r from-[rgb(244,66,52)] to-[rgb(159,58,131)] -z-20"></div>
         </div>
       </div>
     </div>

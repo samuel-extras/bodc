@@ -41,7 +41,7 @@ const Security = () => {
           className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
             itemsinView
               ? " opacity-100 translate-x-0 translate-y-0"
-              : "-translate-x-full -translate-y-full"
+              : "-translate-x-full -translate-y-full opacity-0"
           }`}
         >
           <a
@@ -66,7 +66,7 @@ const Security = () => {
           className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
             itemsinView
               ? " opacity-100 translate-x-0 translate-y-0"
-              : "-translate-y-full"
+              : "-translate-y-full opacity-0"
           }`}
         >
           <a href="https://www.zellic.io/" target="_blank">
@@ -87,7 +87,7 @@ const Security = () => {
           className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
             itemsinView
               ? " opacity-100 translate-x-0 translate-y-0"
-              : "translate-x-full -translate-y-full"
+              : "translate-x-full -translate-y-full opacity-0"
           }`}
         >
           <a href="https://hacken.io/" target="_blank">
