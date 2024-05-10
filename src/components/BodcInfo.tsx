@@ -1,19 +1,44 @@
+"use client";
+import { useInView } from "react-intersection-observer";
+
 const BODCInfo = () => {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 1000,
+    trackVisibility: true,
+  });
   return (
-    <div className="overflow-hidden px-8 py-10">
+    <div
+      ref={ref}
+      className={`overflow-hidden px-8 py-10 ease-in-out  ${inView ? "" : " "}`}
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center fade-right aos-init aos-animate">
-          <div className="flex flex-row relative">
-            <img src="/logo.png" alt="x3" className="x3" />
-            <img src="/coin1.png" className="w-20 h-20 absolute top-0 left-4" />
+          <div
+            className={`flex flex-row relative transition-all duration-2000 ease-in-out ${
+              inView
+                ? "translate-x-0 opacity-100"
+                : "-translate-x-full opacity-0"
+            }`}
+          >
+            <img src="/logo.png" alt="x3" className="animate-moveup" />
+            <img
+              src="/coin1.png"
+              className="w-20 h-20 absolute top-0 left-4 animate-moveup"
+            />
             <img
               src="/coin2.png"
               alt="x1"
-              className="w-16 h-16 absolute right-10 -top-11"
+              className="w-16 h-16 absolute right-10 -top-11 animate-moveup"
             />
           </div>
         </div>
-        <div className="flex justify-center items-center fade-left aos-init aos-animate">
+        <div
+          className={`flex justify-center items-center transition-all duration-2000 ease-in-out ${
+            inView ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+          }`}
+        >
           <div>
             <p className="text-2xl md:text-4xl font-bold text-[#ffffffde]">
               {/* Meet BODC<span className="text-yellow-500">.</span> Our Hybrid
@@ -26,7 +51,7 @@ const BODCInfo = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
-                <div>
+                <div className="flex-shrink-0">
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"

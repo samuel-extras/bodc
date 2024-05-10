@@ -1,19 +1,35 @@
+"use client";
+import { useInView } from "react-intersection-observer";
 const InstructionVideo = () => {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 1000,
+    trackVisibility: true,
+  });
   return (
-    <div className="max-w-6xl mx-auto py-10 px-8">
+    <div className="max-w-6xl mx-auto my-14 px-8" ref={ref}>
       <h1
-        className="text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4"
+        className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4 transition-all duration-2000 ease-in-out ${
+          inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        } `}
         data-aos="fade-up"
       >
         Earn & Trade like a Pro
       </h1>
       <p
         data-aos="fade-up"
-        className="text-[#ffffffab] text-base md:text-xl text-center mb-8"
+        className={`text-[#ffffffab] text-base md:text-xl text-center mb-8 transition-all duration-2000 ease-in-out ${
+          inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        } `}
       >
         Unlocking DeFi for millions of users.
       </p>
-      <div>
+      <div
+        className={`transition-all duration-2000 ease-in-out ${
+          inView ? " translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        } `}
+      >
         <video
           autoPlay
           loop

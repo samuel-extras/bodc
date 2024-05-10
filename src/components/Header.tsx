@@ -53,34 +53,34 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function Header() {
   return (
-    <div className="bg-[#101010] ">
+    <div className="bg-[#101010] z-50">
       <div className="flex items-center justify-between py-3 px-8 max-w-[90rem] mx-auto">
         <NavigationMenu className="flex-1 hidden md:block">
           <div className="w-full">
             <NavigationMenuList className="justify-start w-full ">
               <NavigationMenuItem>
                 <a href="/">
-                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
+                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
                     <img src="/logo.png" alt="" className="w-12 h-12" />
                   </NavigationMenuLink>
                 </a>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <a href="/">
-                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
+                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
                     Tokenomics
                   </NavigationMenuLink>
                 </a>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <a href="/docs">
-                  <NavigationMenuLink className="text-[#a5a5a5] px-6 font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
+                  <NavigationMenuLink className="text-[#a5a5a5] px-6 font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
                     Company
                   </NavigationMenuLink>
                 </a>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c] text-base">
+                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] text-base">
                   Products
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
@@ -99,7 +99,7 @@ export default function Header() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <a href="/">
-                  <NavigationMenuLink className="text-[#a5a5a5] px-6 font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
+                  <NavigationMenuLink className="text-[#a5a5a5] px-6 font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
                     Dex V2
                   </NavigationMenuLink>
                 </a>
@@ -155,7 +155,7 @@ export default function Header() {
             <NavigationMenuItem>
               <a href="/">
                 <NavigationMenuLink className="">
-                  <Button className="text-white px-8 font-medium hover:opacity-85 bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
+                  <Button className="text-white px-8 font-medium hover:opacity-85 bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
                     Enter App
                   </Button>
                 </NavigationMenuLink>

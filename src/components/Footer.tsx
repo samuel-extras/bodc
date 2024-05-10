@@ -6,7 +6,7 @@ const Footer = () => {
           <img src="/logo.png" alt="" className="w-14 h-14" />
 
           <h1 className="lg:max-w-[20ch] text-sm">
-            Managed by XOX Labs. Building the economy of the Future.
+            Managed by BODC. Building the economy of the Future.
           </h1>
           <div className="flex gap-4">
             <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -36,9 +36,9 @@ const Footer = () => {
                     y2="4.14161"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#B809B5"></stop>
+                    <stop stop-color="#FFD700"></stop>
                     <stop offset="0.510417" stop-color="#ED1C51"></stop>
-                    <stop offset="1" stop-color="#FFB000"></stop>
+                    <stop offset="1" stop-color="#DD3B3C"></stop>
                   </linearGradient>
                 </defs>
               </svg>
@@ -70,9 +70,9 @@ const Footer = () => {
                     y2="3.64161"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#B809B5"></stop>
+                    <stop stop-color="#FFD700"></stop>
                     <stop offset="0.510417" stop-color="#ED1C51"></stop>
-                    <stop offset="1" stop-color="#FFB000"></stop>
+                    <stop offset="1" stop-color="#DD3B3C"></stop>
                   </linearGradient>
                 </defs>
               </svg>
@@ -108,9 +108,9 @@ const Footer = () => {
                     y2="3.64161"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#B809B5"></stop>
+                    <stop stop-color="#FFD700"></stop>
                     <stop offset="0.510417" stop-color="#ED1C51"></stop>
-                    <stop offset="1" stop-color="#FFB000"></stop>
+                    <stop offset="1" stop-color="#DD3B3C"></stop>
                   </linearGradient>
                 </defs>
               </svg>
@@ -144,9 +144,9 @@ const Footer = () => {
                     y2="4.14161"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#B809B5"></stop>
+                    <stop stop-color="#FFD700"></stop>
                     <stop offset="0.510417" stop-color="#ED1C51"></stop>
-                    <stop offset="1" stop-color="#FFB000"></stop>
+                    <stop offset="1" stop-color="#DD3B3C"></stop>
                   </linearGradient>
                 </defs>
               </svg>
@@ -180,9 +180,9 @@ const Footer = () => {
                     y2="4.14161"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#B809B5"></stop>
+                    <stop stop-color="#FFD700"></stop>
                     <stop offset="0.510417" stop-color="#ED1C51"></stop>
-                    <stop offset="1" stop-color="#FFB000"></stop>
+                    <stop offset="1" stop-color="#DD3B3C"></stop>
                   </linearGradient>
                 </defs>
               </svg>
@@ -218,9 +218,9 @@ const Footer = () => {
                     y2="4.14161"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#B809B5"></stop>
+                    <stop stop-color="#FFD700"></stop>
                     <stop offset="0.510417" stop-color="#ED1C51"></stop>
-                    <stop offset="1" stop-color="#FFB000"></stop>
+                    <stop offset="1" stop-color="#DD3B3C"></stop>
                   </linearGradient>
                   <clipPath id="clip0_11606_20622">
                     <rect
@@ -237,7 +237,7 @@ const Footer = () => {
         </div>
         <div className="flex-1 grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[rgb(184,9,181)] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[rgb(255,176,0)] after:to-[113.13%] relative text-xl text-[#ffffffde]">
+            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[#FFD700] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[#DD3B3C] after:to-[113.13%] relative text-xl text-[#ffffffde]">
               Products
             </h1>
             <ul className="mt-4 space-y-4">
@@ -454,7 +454,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[rgb(184,9,181)] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[rgb(255,176,0)] after:to-[113.13%] relative text-xl text-[#ffffffde]">
+            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[#FFD700] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[#DD3B3C] after:to-[113.13%] relative text-xl text-[#ffffffde]">
               Explore
             </h1>
             <ul className="mt-4 space-y-4">
@@ -515,13 +515,13 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="flex gap-1"
                 >
-                  XOX Dex V2{" "}
+                  BODC Dex V2{" "}
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[rgb(184,9,181)] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[rgb(255,176,0)] after:to-[113.13%] relative text-xl text-[#ffffffde]">
+            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[#FFD700] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[#DD3B3C] after:to-[113.13%] relative text-xl text-[#ffffffde]">
               Support{" "}
             </h1>
             <ul className="mt-4 space-y-4">
@@ -558,7 +558,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[rgb(184,9,181)] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[rgb(255,176,0)] after:to-[113.13%] relative text-xl text-[#ffffffde]">
+            <h1 className="after:content-[''] after:absolute after:-bottom-1 after:w-10 after:h-0.5 after:left-0 after:bg-gradient-to-r after:from-[#FFD700] after:from-[-7.25%] after:via-[rgb(237,28,81)] after:via-[54.2%] after:to-[#DD3B3C] after:to-[113.13%] relative text-xl text-[#ffffffde]">
               Reach us
             </h1>
             <ul className="mt-4 space-y-4">
@@ -583,7 +583,7 @@ const Footer = () => {
                       fill="white"
                     ></path>
                   </svg>
-                  Partnerships Inquiries <br /> partnership@xoxlabs.io
+                  Partnerships Inquiries <br /> partnership@bodclabs.io
                 </a>
               </li>
               <li className="text-sm text-[#ffffffde]">
@@ -608,7 +608,7 @@ const Footer = () => {
                     ></path>
                   </svg>
                   Support Team <br />
-                  support@xoxlabs.io{" "}
+                  support@bodclabs.io{" "}
                 </a>
               </li>
             </ul>

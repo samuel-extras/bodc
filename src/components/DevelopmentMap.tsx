@@ -1,14 +1,56 @@
+"use client";
+import { useInView } from "react-intersection-observer";
 const DevelopmentMap = () => {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
+  const { ref: item1, inView: item1inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
+  const { ref: item2, inView: item2inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
+  const { ref: item3, inView: item3inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
+  const { ref: item4, inView: item4inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
+  const { ref: item5, inView: item5inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
   return (
-    <div className="px-4 py-10 mx-auto">
+    <div className="px-4 py-10 mx-auto" ref={ref}>
       <h1
-        className="text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4"
+        className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4 transition-all duration-2000 ease-in-out ${
+          inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        } `}
         data-aos="fade-up"
       >
         Development map
       </h1>
       <p
-        className="text-[#fc8618] text-center text-sm"
+        className={`text-[#fc8618] text-center text-sm md:text-base transition-all duration-2000 ease-in-out ${
+          inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        }`}
         data-aos="fade-up"
         data-aos-duration="2300"
       >
@@ -16,7 +58,14 @@ const DevelopmentMap = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-5 my-10 px-8">
         <div></div>
-        <div className="relative md:pl-8">
+        <div
+          ref={item1}
+          className={`relative md:pl-8 transition-all duration-2000 ease-in-out ${
+            item1inView
+              ? "translate-x-0 opacity-100"
+              : "translate-x-full opacity-0"
+          }`}
+        >
           {" "}
           <div className="mb-14">
             {/* Title */}
@@ -77,7 +126,14 @@ const DevelopmentMap = () => {
           ></img>
         </div>
         <div></div>
-        <div className="relative md:pl-8">
+        <div
+          ref={item2}
+          className={`relative md:pl-8 transition-all duration-2000 ease-in-out ${
+            item2inView
+              ? "translate-x-0 opacity-100"
+              : "translate-x-full opacity-0"
+          }`}
+        >
           {" "}
           <div className="my-14">
             {/* Title */}
@@ -163,7 +219,14 @@ const DevelopmentMap = () => {
           ></img>
         </div>{" "}
         <div></div>
-        <div className="relative md:pl-8 order-first md:order-none ">
+        <div
+          ref={item3}
+          className={`relative md:pl-8 order-first md:order-none transition-all duration-2000 ease-in-out ${
+            item3inView
+              ? "translate-x-0 opacity-100"
+              : "translate-x-full opacity-0 "
+          }`}
+        >
           <img
             src="https://cdn.xoxlabs.io/images/mile_stone_done.svg"
             alt="milestone"
@@ -231,7 +294,14 @@ const DevelopmentMap = () => {
           <div className="h-[3px] border-none w-full bg-repeat-x bg-[length:30px_3px] absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-l from-[rgb(139,234,197)] from-50% to-50% to-black bg-top -z-10 hidden md:block"></div>
         </div>
         <div></div>
-        <div className="relative pl-8">
+        <div
+          ref={item4}
+          className={`relative pl-8 transition-all duration-2000 ease-in-out ${
+            item4inView
+              ? "translate-x-0 opacity-100"
+              : "translate-x-full opacity-0 "
+          }`}
+        >
           <img
             src="https://cdn.xoxlabs.io/images/mile_stone_now.svg"
             alt="milestone"
@@ -278,7 +348,14 @@ const DevelopmentMap = () => {
           <div className="h-2 border-none w-full  absolute left-0 -translate-y-1/2 top-0 bg-gradient-to-r from-[rgb(155,243,203)] to-[rgb(62,192,166)] -z-10"></div>
         </div>
         <div></div>
-        <div className="relative pl-8">
+        <div
+          ref={item5}
+          className={`relative pl-8 transition-all duration-2000 ease-in-out ${
+            item5inView
+              ? "translate-x-0 opacity-100"
+              : "translate-x-full opacity-0 "
+          }`}
+        >
           <img
             src="https://cdn.xoxlabs.io/images/mile_stone_now.svg"
             alt="milestone"

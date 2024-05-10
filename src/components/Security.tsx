@@ -1,21 +1,49 @@
+"use client";
+import { useInView } from "react-intersection-observer";
 const Security = () => {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 1000,
+    trackVisibility: true,
+  });
+  const { ref: items, inView: itemsinView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 1000,
+    trackVisibility: true,
+  });
+
   return (
     <div className="pt-10 px-8">
       <h1
-        className="text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4"
+        className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4 transition-all duration-2000 ease-in-out ${
+          inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        } `}
         data-aos="fade-up"
+        ref={ref}
       >
         Secured By{" "}
       </h1>
       <p
-        className="text-[#fc8618] text-center text-sm md:text-base"
+        className={`text-[#fc8618] text-center text-sm md:text-base transition-all duration-2000 ease-in-out ${
+          inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+        }`}
         data-aos="fade-up"
         data-aos-duration="2300"
+        ref={ref}
       >
         XOX has Industry Leading Security. Protected By The Best.
       </p>
       <div className="flex justify-center items-center gap-16 my-10">
-        <div className="group cursor-pointer" data-aos="fade-right">
+        <div
+          ref={items}
+          className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
+            itemsinView
+              ? " opacity-100 translate-x-0 translate-y-0"
+              : "-translate-x-full -translate-y-full"
+          }`}
+        >
           <a
             href="https://skynet.certik.com/projects/xox-labs?utm_source=SkyEmblem&amp;utm_campaign=xox-labs&amp;utm_medium=link"
             target="_blank"
@@ -33,13 +61,19 @@ const Security = () => {
             />
           </a>
         </div>
-        <div className="group cursor-pointer" data-aos="fade-right">
+        <div
+          ref={items}
+          className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
+            itemsinView
+              ? " opacity-100 translate-x-0 translate-y-0"
+              : "-translate-y-full"
+          }`}
+        >
           <a href="https://www.zellic.io/" target="_blank">
             <img
               src="https://cdn.xoxlabs.io/images/partners/Zellic-short.svg"
               alt="zellic"
               className="w-28 h-28 group-hover:hidden"
-              data-aos="fade-right"
             />
             <img
               src="https://cdn.xoxlabs.io/images/partners/Zellic-full.svg"
@@ -48,7 +82,14 @@ const Security = () => {
             />
           </a>
         </div>
-        <div className="group cursor-pointer" data-aos="fade-right">
+        <div
+          ref={items}
+          className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
+            itemsinView
+              ? " opacity-100 translate-x-0 translate-y-0"
+              : "translate-x-full -translate-y-full"
+          }`}
+        >
           <a href="https://hacken.io/" target="_blank">
             <img
               src="https://cdn.xoxlabs.io/images/partners/Hacken-short.svg"

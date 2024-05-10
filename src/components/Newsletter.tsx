@@ -1,20 +1,39 @@
+"use client";
+import { useInView } from "react-intersection-observer";
 const Newsletter = () => {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+    delay: 700,
+    trackVisibility: true,
+  });
   return (
-    <div className="px-8 py-10 mb-8">
+    <div ref={ref} className="px-8 py-10 mb-8">
       <h1
-        className="text-[#ffffffde] text-2xl md:text-4xl font-bold text-center md:mb-4"
+        className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center md:mb-4 transition-all duration-2000 ease-in-out ${
+          inView ? " translate-y-0 opacity-100" : " translate-y-full opacity-0"
+        }`}
         data-aos="fade-up"
       >
         {" "}
-        Subscribe to the XOX Labs Newsletter
+        Subscribe to the BODC Newsletter
       </h1>
-      <p className="text-[#fff9] text-center mb-10">
+      <p
+        className={`text-[#fff9] text-center mb-10 transition-all duration-2000 ease-in-out ${
+          inView ? " translate-y-0 opacity-100" : " translate-y-full opacity-0"
+        }`}
+      >
         Unsubscribe at any time.{" "}
         <a href="#" target="_blank" className="underline text-white">
           Privacy policy
         </a>
       </p>
-      <form action="" className="w-full max-w-xl mx-auto">
+      <form
+        action=""
+        className={`w-full max-w-xl mx-auto transition-all duration-2000 ease-in-out ${
+          inView ? " translate-y-0 opacity-100" : " translate-y-full opacity-0"
+        }`}
+      >
         <label
           htmlFor="input-group"
           className=" mb-2 text-sm font-medium text-gray-900 dark:text-white hidden"

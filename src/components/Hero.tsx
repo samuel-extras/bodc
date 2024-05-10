@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 const Hero = () => {
   return (
     <div className="grid lg:grid-cols-2 px-8 max-w-[92rem] mx-auto ">
-      <div className="max-w-2xl space-y-8 py-14 z-20">
+      <div className="max-w-2xl space-y-8 py-14 ">
         <h1 className="text-[#ffffffde] text-3xl md:text-[40px] font-bold font-geomGraphic">
           Welcome to the Book of Duck Ecosystem.{" "}
         </h1>
@@ -59,7 +59,7 @@ const Hero = () => {
               alt="social_media"
             />
           </Button>
-          <Button className="bg-transparent hover:bg-transparent">
+          {/* <Button className="bg-transparent hover:bg-transparent">
             <img
               src="https://cdn.xoxlabs.io/images/home/hero/discord.svg"
               alt="social_media"
@@ -70,7 +70,7 @@ const Hero = () => {
               src="https://cdn.xoxlabs.io/images/home/hero/youtube.svg"
               alt="social_media"
             />
-          </Button>
+          </Button> */}
           <div className="w-fit bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85">
             <Button size="lg" className=" bg-black hover:bg-black rounded-lg">
               <p className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex p-3 rounded-lg border w-fit items-center border-[#222222] gap-px">
+        <div className="flex p-3 rounded-lg border w-fit items-center border-[#222222] gap-px -z-10">
           <img
             src="https://cdn.xoxlabs.io/images/home/hero/eth.svg"
             alt="email"
