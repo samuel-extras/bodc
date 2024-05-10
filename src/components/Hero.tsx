@@ -5,14 +5,16 @@ const Hero = () => {
     <div className="grid lg:grid-cols-2 px-8 max-w-[92rem] mx-auto ">
       <div className="max-w-2xl space-y-8 py-14 z-20">
         <h1 className="text-[#ffffffde] text-3xl md:text-[40px] font-bold font-geomGraphic">
-          XOX: The Next Gen Multichain DeFi Dapps & Web3 Solutions Provider
+          Welcome to the Book of Duck Ecosystem.{" "}
         </h1>
         <h2 className="font-bold text-lg md:text-[28px] text-transparent bg-clip-text bg-gradient-to-r from-[#95f0c8] via-[#f14537] to-[#9e3a83]">
-          Revolutionary - Scalable - Sustainable
+          Quack, Play, mine and earn!{" "}
         </h2>
         <p className="text-[#9d9d9d] text-base md:text-lg max-w-[50ch]">
-          Swap, stake, store, bridge, refer, invest and earn with ease on the
-          leading Decentralized Blockchain Ecosystem.
+          Ecosystem with high potential for returns as we expand our
+          play-to-earn games and staking opportunities. Benefit from our
+          innovative staking programs where your investments work for you,
+          generating earnings through extensive network participation.
         </p>
         <div className="flex flex-wrap gap-2">
           <Button
@@ -32,10 +34,10 @@ const Hero = () => {
 
           <Button
             size="lg"
-            className="bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c] md:text-lg font-bold hover:opacity-85 md:ms-4"
+            className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 md:ms-4"
           >
             {" "}
-            Get XOX
+            Get BODC
           </Button>
         </div>
         <div className="flex flex-wrap items-center my-4 gap-y-4">
@@ -69,10 +71,10 @@ const Hero = () => {
               alt="social_media"
             />
           </Button>
-          <div className="w-fit bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c] rounded-lg p-px hover:opacity-85">
+          <div className="w-fit bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85">
             <Button size="lg" className=" bg-black hover:bg-black rounded-lg">
-              <p className="bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
-                Get XOXS
+              <p className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
+                Get BODC
               </p>
             </Button>
           </div>

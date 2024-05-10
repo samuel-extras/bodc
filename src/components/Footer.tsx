@@ -3,6 +3,8 @@ const Footer = () => {
     <footer className=" relative before:content-[''] before:absolute before:-top-1 before:w-full before:h-1 before:left-0 before:bg-gradient-to-r before:from-[rgb(155,243,203)] before:from-[30%] before:via-[rgb(244,66,52)] before:via-[60.42%]  before:to-[rgb(159,58,131)] before:to-[100.13%] ">
       <div className="flex flex-col lg:flex-row text-white gap-8 py-20 px-8 max-w-7xl mx-auto">
         <div className="space-y-5">
+          <img src="/logo.png" alt="" className="w-14 h-14" />
+
           <h1 className="lg:max-w-[20ch] text-sm">
             Managed by XOX Labs. Building the economy of the Future.
           </h1>

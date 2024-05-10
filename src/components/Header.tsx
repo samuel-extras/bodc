@@ -61,6 +61,13 @@ export default function Header() {
               <NavigationMenuItem>
                 <a href="/">
                   <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
+                    <img src="/logo.png" alt="" className="w-12 h-12" />
+                  </NavigationMenuLink>
+                </a>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <a href="/">
+                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#c20fa1] to-[#fb8b2c]">
                     Tokenomics
                   </NavigationMenuLink>
                 </a>

@@ -3,38 +3,26 @@ const BODCInfo = () => {
     <div className="overflow-hidden px-8 py-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center fade-right aos-init aos-animate">
-          <div className="flex flex-row">
+          <div className="flex flex-row relative">
+            <img src="/logo.png" alt="x3" className="x3" />
+            <img src="/coin1.png" className="w-20 h-20 absolute top-0 left-4" />
             <img
-              src="https://cdn.xoxlabs.io/images/home/meet-xoxs/x3.svg"
-              alt="x3"
-              className="x3"
-            />
-            <img
-              src="https://cdn.xoxlabs.io/images/home/meet-xoxs/x2.svg"
-              alt="x2"
-              className="x2"
-            />
-            <img
-              src="https://cdn.xoxlabs.io/images/home/meet-xoxs/x1.svg"
+              src="/coin2.png"
               alt="x1"
-              className="x1"
+              className="w-16 h-16 absolute right-10 -top-11"
             />
           </div>
         </div>
         <div className="flex justify-center items-center fade-left aos-init aos-animate">
           <div>
             <p className="text-2xl md:text-4xl font-bold text-[#ffffffde]">
-              Meet BODC<span className="text-yellow-500">.</span> Our Hybrid
-              Multichain Stable Coin<span className="text-yellow-500">.</span>
+              {/* Meet BODC<span className="text-yellow-500">.</span> Our Hybrid
+              Multichain Stable Coin<span className="text-yellow-500">.</span> */}
+              Quack Your BODC Tokens{" "}
             </p>
             <p className="text-justify my-6 text-[#fff9] text-base md:text-lg">
-              Our BODC token is specifically designed as a staking substitute
-              for our governance token XOX. We have extensively studied staking
-              behavior, chart patterns, and the impact of high APYs followed by
-              high selling pressure from stakers. By implementing Stable Coins
-              such as USDT and USDC, we have developed a passive income strategy
-              that prevents supply inflation and selling pressure. Here are some
-              facts about BODC:
+              Maximize Your Earnings and utilize your BODC tokens to the fullest
+              by participating in our unique staking programs.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
@@ -46,9 +34,12 @@ const BODCInfo = () => {
                   />
                 </div>
                 <span className="text-[#fff9]">
-                  BODC can only be obtained by purchasing our governance token
-                  XOX, and is provided as a bonus with auto-staking
-                  functionalities and flexible APY.
+                  Lock your tokens to help secure the network and earn rewards
+                  distributed directly to your wallet. Quack your tokens through
+                  our platform to gain access to exclusive events, features, and
+                  more.
+                  <br />
+                  It’s simple: more participation, more rewards!
                 </span>
               </div>
               <div className="flex items-center space-x-4">
@@ -59,9 +50,20 @@ const BODCInfo = () => {
                     className="icon_stone"
                   />
                 </div>
+                <span className="text-[#fff9]">Staking Pools</span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="flex-shrink-0"
+                  />
+                </div>
                 <span className="text-[#fff9]">
-                  BODC can also be earned through community activities such as
-                  giveaways and completing tasks.
+                  Maximize your BODC holdings by participating in one of our
+                  three staking pools. Choose your pool, stake your coins, and
+                  earn rewards based on your commitment and pool performance.
                 </span>
               </div>
               <div className="flex items-center space-x-4">
@@ -72,25 +74,7 @@ const BODCInfo = () => {
                     className="icon_stone"
                   />
                 </div>
-                <span className="text-[#fff9]">
-                  BODC ensures long-term sustainability, providing a risk-free
-                  and profitable experience for both token holders and the
-                  project.
-                </span>
-              </div>
-              <div className="flex items-center space-x-4">
-                <div>
-                  <img
-                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
-                    alt="icon-stone"
-                    className="icon_stone"
-                  />
-                </div>
-                <span className="text-[#fff9]">
-                  By implementing Stable Coins such as USDT and USDC, BODC
-                  offers a stable and sustainable source of passive income for
-                  users.
-                </span>
+                <span className="text-[#fff9]">Play-to-Earn Game</span>
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ const DevelopmentMap = () => {
                 alt="milestone"
                 className="absolute top-1/2 -translate-y-1/2 -left-2 z-10 md:hidden"
               ></img>
-              Ready & Live
+              Initial Launch and Presale
             </div>
             {/* Description */}
             <div className="space-y-3 ml-8 md:ml-0">
@@ -40,17 +40,12 @@ const DevelopmentMap = () => {
                     className="mt-1.5 flex-shrink-0 me-3"
                   />
                 </div>
-                <div className="text-[#fff9]">Referral Program Dapp</div>
-              </div>
-              <div className="flex">
-                <div>
-                  <img
-                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
-                    alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
-                  />
+                <div className="text-[#fff9]">
+                  Presale Launch: Kickstart your journey with us through an
+                  exclusive presale, offering early access to BODC tokens at a
+                  favorable rate. This initial phase is your gateway to early
+                  investment opportunities.
                 </div>
-                <div className="text-[#fff9]">XOXS Staking Dashboard</div>
               </div>
               <div className="flex">
                 <div>
@@ -61,7 +56,9 @@ const DevelopmentMap = () => {
                   />
                 </div>
                 <div className="text-[#fff9]">
-                  Multi Chain Assets Management Dapp
+                  Staking Pools Development: Roll out our initial staking pools
+                  to allow token holders to earn rewards and contribute to
+                  network security.
                 </div>
               </div>
             </div>
@@ -91,7 +88,7 @@ const DevelopmentMap = () => {
                 className="absolute top-1/2 -translate-y-1/2 -left-4 z-10 md:hidden"
                 alt="milestone"
               ></img>
-              Under Development
+              Infrastructure and Strategic Alliances
             </div>
             {/* Description */}
             <div className="space-y-3 ml-10">
@@ -104,7 +101,13 @@ const DevelopmentMap = () => {
                     className="mt-1.5 flex-shrink-0 me-3"
                   />
                 </div>
-                <div className="text-[#fff9]">XOX Multi-Chain Launchpad</div>
+                <div className="text-[#fff9]">
+                  {" "}
+                  Quack Tracker Implementation: Launch the Quack Tracker bot to
+                  provide users with insights and analytics on high-potential
+                  coins, enhancing decision-making and investment strategies
+                  within the ecosystem.
+                </div>
               </div>
               <div className="flex">
                 <div>
@@ -115,7 +118,9 @@ const DevelopmentMap = () => {
                   />
                 </div>
                 <div className="text-[#fff9]">
-                  XOX Coin Listing/Ranking Site (Early Stage)
+                  Development of Mining Features: Introduce a mining app that
+                  allows users to mine BODC tokens, expanding earning
+                  possibilities and engagement.
                 </div>
               </div>
               <div className="flex">
@@ -126,7 +131,26 @@ const DevelopmentMap = () => {
                     className="mt-1.5 flex-shrink-0 me-3"
                   />
                 </div>
-                <div className="text-[#fff9]">XOX DEX V2 </div>
+                <div className="text-[#fff9]">
+                  {" "}
+                  Forming Strategic Partnerships: Establish collaborations with
+                  key industry players to enhance platform capabilities and
+                  extend market reach.
+                </div>
+              </div>
+              <div className="flex">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="mt-1.5 flex-shrink-0 me-3"
+                  />
+                </div>
+                <div className="text-[#fff9]">
+                  {" "}
+                  Initial CEX Listings: Secure listings on major cryptocurrency
+                  exchanges to increase token liquidity and accessibility.
+                </div>
               </div>
             </div>
           </div>
@@ -154,7 +178,7 @@ const DevelopmentMap = () => {
                 alt="milestone"
                 className="absolute top-1/2 -translate-y-1/2 -left-2 z-10 md:hidden"
               ></img>{" "}
-              Ready & Live
+              Expansion and Ecosystem Enhancement
             </div>
             {/* Description */}
             <div className="space-y-3 ml-8">
@@ -167,7 +191,11 @@ const DevelopmentMap = () => {
                     className="mt-1.5 flex-shrink-0 me-3"
                   />
                 </div>
-                <div className="text-[#fff9]">Website</div>
+                <div className="text-[#fff9]">
+                  Mining App Launch: Officially release the mining app, enabling
+                  users to participate in and benefit from the mining process
+                  directly through their devices.
+                </div>
               </div>
               <div className="flex">
                 <div>
@@ -178,7 +206,8 @@ const DevelopmentMap = () => {
                   />
                 </div>
                 <div className="text-[#fff9]">
-                  XOX & XOXS Multi Chain Smart Contracts
+                  Enhanced Staking Features: Enhance existing staking protocols
+                  to offer more robust options and better rewards.
                 </div>
               </div>
               <div className="flex">
@@ -189,7 +218,12 @@ const DevelopmentMap = () => {
                     className="mt-1.5 flex-shrink-0 me-3"
                   />
                 </div>
-                <div className="text-[#fff9]">Decentralized Dex</div>
+                <div className="text-[#fff9]">
+                  {" "}
+                  Additional CEX Listings: Further expand our presence on
+                  cryptocurrency exchanges to ensure broader market penetration
+                  and stability.
+                </div>
               </div>
             </div>
           </div>
@@ -206,7 +240,7 @@ const DevelopmentMap = () => {
           <div className="my-14">
             {/* Title */}
             <div className="text-[#ffffffde] font-bold text-xl mb-2">
-              Under Development
+              Introduction of Play & Earn Features
             </div>
             {/* Description */}
             <div className="space-y-3">
@@ -219,7 +253,11 @@ const DevelopmentMap = () => {
                     className="mt-1.5 flex-shrink-0 me-3"
                   />
                 </div>
-                <div className="text-[#fff9]">Bridge</div>
+                <div className="text-[#fff9]">
+                  Development of Play-to-Earn Games: Begin the development of
+                  the play-to-earn gaming platform to increase user engagement
+                  and token utility through interactive gaming.
+                </div>
               </div>
               <div className="flex">
                 <div>
@@ -230,19 +268,8 @@ const DevelopmentMap = () => {
                   />
                 </div>
                 <div className="text-[#fff9]">
-                  Adding Features To Already Live Utilities
-                </div>
-              </div>
-              <div className="flex">
-                <div>
-                  <img
-                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
-                    alt="icon-stone"
-                    className="mt-1.5 flex-shrink-0 me-3"
-                  />
-                </div>
-                <div className="text-[#fff9]">
-                  XOX Mobile App/Wallet for IOS, Android & Web
+                  Soft Launch of Games: Conduct a soft launch of the games to
+                  gather user feedback and ensure optimal performance.
                 </div>
               </div>
             </div>
@@ -260,7 +287,7 @@ const DevelopmentMap = () => {
           <div className="my-14">
             {/* Title */}
             <div className="text-[#ffffffde] font-bold text-xl mb-2">
-              Upcoming Developments{" "}
+              Full Scale Operation and Market Penetration
             </div>
             {/* Description */}
             <div className="space-y-3">
@@ -274,8 +301,8 @@ const DevelopmentMap = () => {
                   />
                 </div>
                 <div className="text-[#fff9]">
-                  Improve and fix bugs or issues on current live utilities.
-                  (Improvement Stage)
+                  Full Launch of Play-to-Earn Platform: Officially release the
+                  fully tested and community-approved play-to-earn games.
                 </div>
               </div>
               <div className="flex">
@@ -287,7 +314,51 @@ const DevelopmentMap = () => {
                   />
                 </div>
                 <div className="text-[#fff9]">
-                  Planning & Researching Upcoming Potential Developments.
+                  Continuous Improvements and Updates: Regularly update the
+                  platform based on user feedback and technological
+                  advancements.
+                </div>
+              </div>
+              <div className="flex">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="mt-1.5 flex-shrink-0 me-3"
+                  />
+                </div>
+                <div className="text-[#fff9]">
+                  Further Strategic Partnerships: Cultivate additional
+                  partnerships to diversify and enhance service offerings and
+                  ecosystem sustainability.
+                </div>
+              </div>
+              <div className="flex">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="mt-1.5 flex-shrink-0 me-3"
+                  />
+                </div>
+                <div className="text-[#fff9]">
+                  Community Governance Enhancements: Further develop community
+                  governance features, allowing token holders more substantial
+                  input into the ecosystem’s future directions.
+                </div>
+              </div>
+              <div className="flex">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="mt-1.5 flex-shrink-0 me-3"
+                  />
+                </div>
+                <div className="text-[#fff9]">
+                  Regular Updates and Community Calls: Maintain transparent
+                  communication with the community through regular updates and
+                  open forums to discuss developments and strategies.
                 </div>
               </div>
             </div>
