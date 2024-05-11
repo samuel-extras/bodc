@@ -8,7 +8,7 @@ const Hero = () => {
           Welcome to the Book of Duck Ecosystem.{" "}
         </h1>
         <h2 className="font-bold text-lg md:text-[28px] text-transparent bg-clip-text bg-gradient-to-r from-[#95f0c8] via-[#f14537] to-[#9e3a83]">
-          Quack, Play, mine and earn!{" "}
+          Quack, Play, and earn!{" "}
         </h2>
         <p className="text-[#9d9d9d] text-base md:text-lg max-w-[50ch]">
           Ecosystem with high potential for returns as we expand our

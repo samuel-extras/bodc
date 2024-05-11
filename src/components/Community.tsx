@@ -125,8 +125,8 @@ const Community = () => {
               </p>
               <ul className="list-inside list-disc marker:text-[rgba(255,255,255,0.6)]">
                 <li className="text-[rgba(255,255,255,0.6)] hidden md:block">
-                  Follow @BODC_Labs on Twitter for ecosystem news & updates.
-                  Stay informed.
+                  Follow @bookodc on Twitter for ecosystem news & updates. Stay
+                  informed.
                 </li>
               </ul>
             </div>
@@ -199,8 +199,8 @@ const Community = () => {
               </p>
               <ul className="list-inside list-disc marker:text-[rgba(255,255,255,0.6)]">
                 <li className="text-[rgba(255,255,255,0.6)] hidden md:block">
-                  Follow @BODC_labs on TikTok for the latest ecosystem news.
-                  Stay connected!
+                  Follow @bookodc on TikTok for the latest ecosystem news. Stay
+                  connected!
                 </li>
               </ul>
             </div>

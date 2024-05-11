@@ -165,7 +165,7 @@ const DevelopmentMap = () => {
                   within the ecosystem.
                 </div>
               </div>
-              <div className="flex">
+              {/* <div className="flex">
                 <div>
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
@@ -178,7 +178,7 @@ const DevelopmentMap = () => {
                   allows users to mine BODC tokens, expanding earning
                   possibilities and engagement.
                 </div>
-              </div>
+              </div> */}
               <div className="flex">
                 <div>
                   <img
@@ -246,7 +246,7 @@ const DevelopmentMap = () => {
             {/* Description */}
             <div className="space-y-3 ml-8">
               {/* Individual entries */}
-              <div className="flex">
+              {/* <div className="flex">
                 <div>
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
@@ -259,7 +259,7 @@ const DevelopmentMap = () => {
                   users to participate in and benefit from the mining process
                   directly through their devices.
                 </div>
-              </div>
+              </div> */}
               <div className="flex">
                 <div>
                   <img

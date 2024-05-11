@@ -25,7 +25,7 @@ export function CarouselPlugin() {
       // onMouseLeave={plugin.current.reset}
     >
       <CarouselContent className="w-full min-h-fit max-h-fit">
-        {/* <CarouselItem className="grid grid-cols-2 w-full">
+        <CarouselItem className="grid grid-cols-2 w-full">
           <a
             // href="https://bnbchain.org/"
             target="_blank"
@@ -34,7 +34,7 @@ export function CarouselPlugin() {
             <img
               src="/p1.jpeg"
               alt="BNBChain_logo"
-              className="h-32 w-auto -mb-20"
+              className="h-32 w-auto mb-10"
             />
           </a>
           <a
@@ -45,7 +45,7 @@ export function CarouselPlugin() {
             <img
               src="/p2.jpeg"
               alt="zksync_logo"
-              className="h-32 w-auto -mb-20"
+              className="h-32 w-auto mb-10"
             />
           </a>
           <a
@@ -56,7 +56,7 @@ export function CarouselPlugin() {
             <img
               src="/p3.jpeg"
               alt="Linea_logo"
-              className="h-32 w-auto -mb-20"
+              className="h-32 w-auto mb-10"
             />
           </a>
           <a
@@ -64,10 +64,10 @@ export function CarouselPlugin() {
             target="_blank"
             className="w-full flex justify-center items-center"
           >
-            <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto -mb-20" />
+            <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto mb-10" />
           </a>
-        </CarouselItem> */}
-        <CarouselItem className="grid grid-cols-2 w-full">
+        </CarouselItem>
+        {/* <CarouselItem className="grid grid-cols-2 w-full">
           <a
             href="https://bnbchain.org/"
             target="_blank"
@@ -407,7 +407,7 @@ export function CarouselPlugin() {
               alt="Dexview_logo"
             />
           </a>
-        </CarouselItem>
+        </CarouselItem> */}
       </CarouselContent>
     </Carousel>
   );
@@ -449,11 +449,11 @@ const EcosystemPartners = () => {
         <CarouselPlugin />
       </div>
       <div
-        className={`imgs mt-16 md:block hidden transition-all duration-2000 ease-in-out ${
+        className={`imgs md:block hidden transition-all duration-2000 ease-in-out ${
           inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
         }`}
       >
-        {/* <div className="flex justify-center gap-4 mb-20">
+        <div className="flex justify-center gap-4 mb-20">
           <a
             // href="https://bnbchain.org/"
             target="_blank"
@@ -494,8 +494,8 @@ const EcosystemPartners = () => {
           >
             <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto -mb-20" />
           </a>
-        </div> */}
-        <div className="flex justify-center gap-4 -my-12">
+        </div>
+        {/* <div className="flex justify-center gap-4 -my-12">
           <a
             href="https://bnbchain.org/"
             target="_blank"
@@ -835,7 +835,7 @@ const EcosystemPartners = () => {
               alt="Dexview_logo"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
