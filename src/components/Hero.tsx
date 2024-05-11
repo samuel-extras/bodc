@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2 px-8 max-w-[92rem] mx-auto ">
+    <div className="grid lg:grid-cols-2 px-8 max-w-[90rem] mx-auto ">
       <div className="max-w-2xl space-y-8 py-14 ">
         <h1 className="text-[#ffffffde] text-3xl md:text-[40px] font-bold font-geomGraphic">
           Welcome to the Book of Duck Ecosystem.{" "}

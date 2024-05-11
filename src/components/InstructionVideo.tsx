@@ -41,13 +41,13 @@ const InstructionVideo = () => {
           controls={false}
         >
           <source
-            // src="https://cdn.xoxlabs.io/videos/home/DappPromo.mov"
-            src="/duck.mp4"
+            src="https://cdn.xoxlabs.io/videos/home/DappPromo.mov"
+            // src="/duck.mp4"
             type='video/mp4; codecs="hvc1"'
           />
           <source
-            // src="https://cdn.xoxlabs.io/videos/home/DappPromo.webm"
-            src="/duck.mp4"
+            src="https://cdn.xoxlabs.io/videos/home/DappPromo.webm"
+            // src="/duck.mp4"
             type="video/webm"
           />
         </video>

@@ -32,7 +32,7 @@ export function CarouselPlugin() {
             className="w-full flex justify-center items-center"
           >
             <img
-              src="/p1.jpeg"
+              src="/p1.png"
               alt="BNBChain_logo"
               className="h-32 w-auto mb-10"
             />
@@ -43,7 +43,7 @@ export function CarouselPlugin() {
             className="w-full flex justify-center items-center"
           >
             <img
-              src="/p2.jpeg"
+              src="/p2.png"
               alt="zksync_logo"
               className="h-32 w-auto mb-10"
             />
@@ -53,18 +53,14 @@ export function CarouselPlugin() {
             target="_blank"
             className="w-full flex justify-center items-center"
           >
-            <img
-              src="/p3.jpeg"
-              alt="Linea_logo"
-              className="h-32 w-auto mb-10"
-            />
+            <img src="/p3.png" alt="Linea_logo" className="h-32 w-auto mb-10" />
           </a>
           <a
             // href="https://www.okx.com/"
             target="_blank"
             className="w-full flex justify-center items-center"
           >
-            <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto mb-10" />
+            <img src="/p4.png" alt="OKX_logo" className="h-32 w-auto mb-10" />
           </a>
         </CarouselItem>
         {/* <CarouselItem className="grid grid-cols-2 w-full">
@@ -421,7 +417,7 @@ const EcosystemPartners = () => {
     trackVisibility: true,
   });
   return (
-    <div className=" px-8 py-10" ref={ref}>
+    <div className=" px-8 py-10 mx-auto max-w-[90rem]" ref={ref}>
       <h1
         className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4 transition-all duration-2000 ease-in-out ${
           inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
@@ -460,7 +456,7 @@ const EcosystemPartners = () => {
             className="w-full flex justify-center items-center"
           >
             <img
-              src="/p1.jpeg"
+              src="/p1.png"
               alt="BNBChain_logo"
               className="h-32 w-auto -mb-20"
             />
@@ -471,7 +467,7 @@ const EcosystemPartners = () => {
             className="w-full flex justify-center items-center"
           >
             <img
-              src="/p2.jpeg"
+              src="/p2.png"
               alt="zksync_logo"
               className="h-32 w-auto -mb-20"
             />
@@ -482,7 +478,7 @@ const EcosystemPartners = () => {
             className="w-full flex justify-center items-center"
           >
             <img
-              src="/p3.jpeg"
+              src="/p3.png"
               alt="Linea_logo"
               className="h-32 w-auto -mb-20"
             />
@@ -492,7 +488,7 @@ const EcosystemPartners = () => {
             target="_blank"
             className="w-full flex justify-center items-center"
           >
-            <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto -mb-20" />
+            <img src="/p4.png" alt="OKX_logo" className="h-32 w-auto -mb-20" />
           </a>
         </div>
         {/* <div className="flex justify-center gap-4 -my-12">

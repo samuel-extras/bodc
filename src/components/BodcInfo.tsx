@@ -11,7 +11,9 @@ const BODCInfo = () => {
   return (
     <div
       ref={ref}
-      className={`overflow-hidden px-8 py-10 ease-in-out  ${inView ? "" : " "}`}
+      className={`overflow-hidden px-8 py-10 ease-in-out max-w-[90rem] mx-auto  ${
+        inView ? "" : " "
+      }`}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="flex justify-center items-center fade-right aos-init aos-animate">

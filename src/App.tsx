@@ -29,7 +29,7 @@ function App() {
       <Community />
       <Newsletter />
       <Footer />
-      <div className="bg-[#282828] py-5">
+      <div className="bg-[#282828] py-5 mx-auto">
         <p className="text-sm text-center text-[#ffffffde]">
           © 2024 Bookodc. All Rights Reserved
         </p>
