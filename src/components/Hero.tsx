@@ -130,7 +130,7 @@ const Hero = () => {
             name="email"
             placeholder=""
             required
-            value="KfDfv9aNc5vufv3KEGMU8ZHFdnxe9jphGzUW11hJDsC"
+            value="3fLptZjMgKhPufQN2v1v6xR93mwtYPTwjRq6Q9xPLmD8"
             disabled
             className="bg-none bg-transparent outline-none text-white max-w-fit border-b border-b-white w-40 p-0 "
           />
@@ -138,7 +138,7 @@ const Hero = () => {
             className="cursor-pointer ms-1"
             onClick={() => {
               navigator.clipboard.writeText(
-                "KfDfv9aNc5vufv3KEGMU8ZHFdnxe9jphGzUW11hJDsC"
+                "3fLptZjMgKhPufQN2v1v6xR93mwtYPTwjRq6Q9xPLmD8"
               );
             }}
           >
@@ -161,24 +161,26 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="content-center relative   ">
-        <div className="lg:absolute lg:w-[160%] lg:top-0  xl:-top-20 lg:-left-32 xl:-left-64 mx-auto ">
+      <div className="content-center relative align-middle  ">
+        <div className="lg:absolute mx-auto lg:top-1/2  lg:-translate-y-1/2">
           {/* <div className=" absolute inset-0 "></div> */}
           <video
             autoPlay={true}
             loop
             playsInline
-            className="w-full "
+            className="w-full"
             id="laptopVideo"
             muted={true}
             controls={false}
           >
             <source
-              src="https://cdn.xoxlabs.io/videos/home/laptop.mov"
+              // src="https://cdn.xoxlabs.io/videos/home/laptop.mov"
+              src="/bodc.mp4"
               type='video/mp4; codecs="hvc1"'
             />
             <source
-              src="https://cdn.xoxlabs.io/videos/home/laptop.webm"
+              // src="https://cdn.xoxlabs.io/videos/home/laptop.webm"
+              src="/bodc.mp4"
               type="video/webm"
             />
           </video>

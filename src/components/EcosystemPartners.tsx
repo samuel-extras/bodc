@@ -25,7 +25,7 @@ export function CarouselPlugin() {
       // onMouseLeave={plugin.current.reset}
     >
       <CarouselContent className="w-full min-h-fit max-h-fit">
-        <CarouselItem className="grid grid-cols-2 w-full">
+        {/* <CarouselItem className="grid grid-cols-2 w-full">
           <a
             // href="https://bnbchain.org/"
             target="_blank"
@@ -66,7 +66,7 @@ export function CarouselPlugin() {
           >
             <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto -mb-20" />
           </a>
-        </CarouselItem>
+        </CarouselItem> */}
         <CarouselItem className="grid grid-cols-2 w-full">
           <a
             href="https://bnbchain.org/"
@@ -453,7 +453,7 @@ const EcosystemPartners = () => {
           inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
         }`}
       >
-        <div className="flex justify-center gap-4 mb-20">
+        {/* <div className="flex justify-center gap-4 mb-20">
           <a
             // href="https://bnbchain.org/"
             target="_blank"
@@ -494,7 +494,7 @@ const EcosystemPartners = () => {
           >
             <img src="/p4.jpeg" alt="OKX_logo" className="h-32 w-auto -mb-20" />
           </a>
-        </div>
+        </div> */}
         <div className="flex justify-center gap-4 -my-12">
           <a
             href="https://bnbchain.org/"

@@ -33,7 +33,7 @@ const Security = () => {
         data-aos-duration="2300"
         ref={ref}
       >
-        XOX has Industry Leading Security. Protected By The Best.
+        BODC has Industry Leading Security. Protected By The Best.
       </p>
       <div className="flex justify-center items-center gap-16 my-10">
         <div

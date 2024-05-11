@@ -9,7 +9,11 @@ const Footer = () => {
             Managed by BODC. Building the economy of the Future.
           </h1>
           <div className="flex gap-4">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://twitter.com/Bookodc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 width="30"
                 height="31"
@@ -43,7 +47,11 @@ const Footer = () => {
                 </defs>
               </svg>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://t.me/BookOfDuck"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -77,7 +85,11 @@ const Footer = () => {
                 </defs>
               </svg>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://t.me/BookODC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -115,7 +127,7 @@ const Footer = () => {
                 </defs>
               </svg>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            {/* <a href="http://" target="_blank" rel="noopener noreferrer">
               <svg
                 width="30"
                 height="31"
@@ -186,8 +198,11 @@ const Footer = () => {
                   </linearGradient>
                 </defs>
               </svg>
-            </a>
-            <a href="">
+            </a> */}
+            <a
+              href="https://www.tiktok.com/@bookodc?_t=8mEerM7RGi7&_r=1"
+              target="_blank"
+            >
               <svg
                 width="30"
                 height="31"
