@@ -1,7 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const {
   default: flattenColorPalette,
+  // eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
 } = require("tailwindcss/lib/util/flattenColorPalette");
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -21,7 +24,7 @@ module.exports = {
     },
     extend: {
       transitionDuration: {
-        2000: "2300ms",
+        2000: "2000ms",
       },
       fontFamily: {
         geomGraphic: ["Geom Graphic W03 Regular", "sans-serif"],
@@ -65,9 +68,10 @@ module.exports = {
       },
     },
   },
+  // eslint-disable-next-line no-undef
   plugins: [require("tailwindcss-animate"), addVariablesForColors],
 };
-function addVariablesForColors({ addBase, theme }: any) {
+function addVariablesForColors({ addBase, theme }) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])

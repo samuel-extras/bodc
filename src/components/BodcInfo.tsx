@@ -5,7 +5,7 @@ const BODCInfo = () => {
   const { ref, inView } = useInView({
     /* Optional options */
     threshold: 0,
-    delay: 1000,
+    delay: 500,
     trackVisibility: true,
   });
   return (
@@ -45,15 +45,15 @@ const BODCInfo = () => {
             <p className="text-2xl md:text-4xl font-bold text-[#ffffffde]">
               {/* Meet BODC<span className="text-yellow-500">.</span> Our Hybrid
               Multichain Stable Coin<span className="text-yellow-500">.</span> */}
-              Quack Your BODC Tokens{" "}
+              Benefits of Joining the Book of Duck Ecosystem{" "}
             </p>
             <p className="text-justify my-6 text-[#fff9] text-base md:text-lg">
-              Maximize Your Earnings and utilize your BODC tokens to the fullest
-              by participating in our unique staking programs.
+              Unlock a world of opportunities with BODC. Here's what you can
+              expect when you dive into our ecosystem:
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
-                <div className="flex-shrink-0">
+                <div className="">
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
@@ -61,12 +61,9 @@ const BODCInfo = () => {
                   />
                 </div>
                 <span className="text-[#fff9]">
-                  Lock your tokens to help secure the network and earn rewards
-                  distributed directly to your wallet. Quack your tokens through
-                  our platform to gain access to exclusive events, features, and
-                  more.
-                  <br />
-                  It’s simple: more participation, more rewards!
+                  Seamless Transactions: Experience lightning-fast and
+                  cost-effective transactions on the Solana blockchain, ensuring
+                  smooth and efficient gameplay and financial exchanges.
                 </span>
               </div>
               <div className="flex items-center space-x-4">
@@ -77,10 +74,14 @@ const BODCInfo = () => {
                     className="icon_stone"
                   />
                 </div>
-                <span className="text-[#fff9]">Staking Pools</span>
+                <span className="text-[#fff9]">
+                  Exclusive Access: Participate in special events, early game
+                  releases, and unique promotional offers available only to BODC
+                  holders.
+                </span>
               </div>
               <div className="flex items-center space-x-4">
-                <div className="flex-shrink-0">
+                <div className="">
                   <img
                     src="https://cdn.xoxlabs.io/images/icon-stone.svg"
                     alt="icon-stone"
@@ -88,9 +89,9 @@ const BODCInfo = () => {
                   />
                 </div>
                 <span className="text-[#fff9]">
-                  Maximize your BODC holdings by participating in one of our
-                  three staking pools. Choose your pool, stake your coins, and
-                  earn rewards based on your commitment and pool performance.
+                  Community Driven: Have a voice in the development and future
+                  of the ecosystem through active participation in our
+                  governance model.
                 </span>
               </div>
               <div className="flex items-center space-x-4">
@@ -101,7 +102,53 @@ const BODCInfo = () => {
                     className="icon_stone"
                   />
                 </div>
-                <span className="text-[#fff9]">Play-to-Earn Game</span>
+                <span className="text-[#fff9]">
+                  Rewarding Experience: Enjoy competitive staking rewards that
+                  not only provide financial benefits but also help secure the
+                  network.
+                </span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="icon_stone"
+                  />
+                </div>
+                <span className="text-[#fff9]">
+                  Global Network: Connect with a diverse community of gamers and
+                  crypto enthusiasts from around the world, all engaged and
+                  contributing to the growth of the ecosystem.
+                </span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="icon_stone"
+                  />
+                </div>
+                <span className="text-[#fff9]">
+                  Educational Resources: Gain access to extensive learning
+                  materials designed to enhance your understanding of blockchain
+                  technology and decentralized finance.
+                </span>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div>
+                  <img
+                    src="https://cdn.xoxlabs.io/images/icon-stone.svg"
+                    alt="icon-stone"
+                    className="icon_stone"
+                  />
+                </div>
+                <span className="text-[#fff9]">
+                  Sustainable Investment: Be part of a project with a clear
+                  roadmap and committed to long-term growth and sustainability,
+                  ensuring your involvement is impactful.
+                </span>
               </div>
             </div>
           </div>

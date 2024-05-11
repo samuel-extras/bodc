@@ -117,7 +117,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex p-3 rounded-lg border w-fit items-center border-[#222222] gap-px -z-10">
+        <div className="flex flex-wrap p-3 rounded-lg border w-fit items-center border-[#222222] gap-px -z-10">
           <img
             src="https://www.aver.exchange/static/new_images/solana_s_white.png"
             alt="email"
@@ -130,7 +130,7 @@ const Hero = () => {
             name="email"
             placeholder=""
             required
-            value="3fLptZjMgKhPufQN2v1v6xR93mwtYPTwjRq6Q9xPLmD8"
+            value="3fLptZj...xPLmD8"
             disabled
             className="bg-none bg-transparent outline-none text-white max-w-fit border-b border-b-white w-40 p-0 "
           />
