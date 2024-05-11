@@ -38,7 +38,7 @@ const FeatureSection = () => {
           data-aos="fade-up"
           ref={ref}
         >
-          Book of Duck Ecosystem <span className="text-[#fb8618]">.</span>
+          Quack Your BODC Tokens <span className="text-[#fb8618]">.</span>
         </p>
         <p
           className={`text-[#fc8618] text-center text-sm md:text-base mb-10 transition-all duration-2000 ease-in-out ${
@@ -72,12 +72,14 @@ const FeatureSection = () => {
                     />
                   </div>
                   <p className="text-[#ffffffde] text-xl font-bold mb-3">
-                    Revolutionary Multi-chain DEX with Dual Cash Back Rewards
+                    Stake Your Tokens{" "}
                   </p>
                   <p className="text-sm text-[#fff9] mb-10">
-                    The Book of Duck is more than just a game. It’s a
-                    comprehensive ecosystem designed to support a robust digital
-                    economy.
+                    Maximize your $BODC holdings by staking them in our
+                    exclusive pools. Staking not only helps secure the network
+                    but also rewards you with additional $BODC over time. It’s
+                    simple—lock up your tokens, help us maintain the
+                    ecosystem’s.
                     {/* Our Multi-chain DEX platform offers a unique opportunity for
                     users to earn dual cash back rewards for every transaction
                     performed. Through our multi-token ecosystem and
@@ -121,12 +123,13 @@ const FeatureSection = () => {
                     />
                   </div>
                   <p className="text-[#ffffffde] text-xl font-bold mb-3">
-                    Liquidity Provision and Reward System
+                    Participate in Governance{" "}
                   </p>
                   <p className="text-sm text-[#fff9] mb-10 line-clamp-[7]">
-                    Staking pools to community governance, every aspect of our
-                    platform is designed with user engagement and sustainability
-                    in mind, designed to be passive income for all holders.
+                    Your voice matters! Use your $BODC tokens to participate in
+                    community governance. Every token is a vote in your hand,
+                    allowing you to influence major decisions and the future
+                    direction of the Book of Duck ecosystem.
                     <span className="cursor-pointer text-[#fb8618]">
                       {/* <span className="expand">Read more</span> */}
                     </span>
@@ -164,12 +167,15 @@ const FeatureSection = () => {
                     />
                   </div>
                   <p className="text-[#ffffffde] text-xl font-bold mb-3">
-                    Gamified Referral Program with Dual USDT/USDC Rewards
+                    Exclusive Access and Rewards{" "}
                   </p>
                   <p className="text-sm text-[#fff9] mb-10">
-                    Our BODC Gamified Referral Program is the first of its kind
-                    and designed to give users cash-back rewards in USDT/USDC
-                    for every transaction performed using their referral code.
+                    Quacking your $BODC tokens opens the door to exclusive
+                    benefits and rewards. Gain early access to new games,
+                    special events, and unique promotions only available to
+                    token holders. Additionally, high-level quackers can enjoy
+                    enhanced earning potentials, special staking rewards, and
+                    unique NFTs.
                     {/* The program is designed to be fun and interactive with a
                     level system based on points. */}
                     {/* Users can earn points, level
