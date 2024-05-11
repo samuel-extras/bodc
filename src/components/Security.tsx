@@ -44,18 +44,15 @@ const Security = () => {
               : "-translate-x-full -translate-y-full opacity-0"
           }`}
         >
-          <a
-            href="https://skynet.certik.com/projects/xox-labs?utm_source=SkyEmblem&amp;utm_campaign=xox-labs&amp;utm_medium=link"
-            target="_blank"
-          >
+          <a href="#" target="_blank">
             <img
-              src="https://cdn.xoxlabs.io/images/partners/Certik-short.svg"
+              src="/cfg.png"
               alt="airbnb"
               className="w-28 h-28 group-hover:hidden"
               data-aos="fade-right"
             />
             <img
-              src="https://cdn.xoxlabs.io/images/partners/Certik-full.svg"
+              src="/cfg.png"
               alt="airbnb"
               className="w-28 h-28 hidden group-hover:block"
             />
@@ -69,7 +66,7 @@ const Security = () => {
               : "-translate-y-full opacity-0"
           }`}
         >
-          <a href="https://www.zellic.io/" target="_blank">
+          <a href="#" target="_blank">
             <img
               src="https://cdn.xoxlabs.io/images/partners/Zellic-short.svg"
               alt="zellic"
@@ -90,7 +87,7 @@ const Security = () => {
               : "translate-x-full -translate-y-full opacity-0"
           }`}
         >
-          <a href="https://hacken.io/" target="_blank">
+          <a href="#" target="_blank">
             <img
               src="https://cdn.xoxlabs.io/images/partners/Hacken-short.svg"
               alt="google"

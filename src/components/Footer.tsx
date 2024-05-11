@@ -258,7 +258,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-4">
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -288,7 +288,7 @@ const Footer = () => {
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -318,7 +318,7 @@ const Footer = () => {
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -348,7 +348,7 @@ const Footer = () => {
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -378,7 +378,7 @@ const Footer = () => {
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -542,7 +542,7 @@ const Footer = () => {
             <ul className="mt-4 space-y-4">
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -552,7 +552,7 @@ const Footer = () => {
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -562,7 +562,7 @@ const Footer = () => {
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
