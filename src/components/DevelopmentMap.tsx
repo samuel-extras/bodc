@@ -54,7 +54,7 @@ const DevelopmentMap = () => {
         data-aos="fade-up"
         data-aos-duration="2300"
       >
-        Building The Road For Web3 & Blockchain Mass Adoption
+        Building the Future of Fun and Utility with BODC{" "}
       </p>
       <div className="grid grid-cols-1 md:grid-cols-5 my-10 px-8">
         <div></div>

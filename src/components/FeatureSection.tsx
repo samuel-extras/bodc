@@ -40,7 +40,7 @@ const FeatureSection = () => {
         >
           Quack Your BODC Tokens <span className="text-[#fb8618]">.</span>
         </p>
-        <p
+        {/* <p
           className={`text-[#fc8618] text-center text-sm md:text-base mb-10 transition-all duration-2000 ease-in-out ${
             inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
           }`}
@@ -49,7 +49,7 @@ const FeatureSection = () => {
           ref={ref}
         >
           A Thriving Blockchain Ecosystem
-        </p>
+        </p> */}
       </div>
       <div className="">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
