@@ -259,11 +259,11 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
-                  Swap{" "}
+                  Swap soon...{" "}
                   <svg
                     width="10"
                     height="11"
@@ -289,11 +289,11 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
-                  Bridge{" "}
+                  Bridge soon...{" "}
                   <svg
                     width="10"
                     height="11"
@@ -319,8 +319,8 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
                   Liquidity{" "}
@@ -349,101 +349,11 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
-                  Farming{" "}
-                  <svg
-                    width="10"
-                    height="11"
-                    viewBox="0 0 10 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.5 8L7.5 3"
-                      stroke="white"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M3.4375 3H7.5V7.0625"
-                      stroke="white"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-              </li>
-              <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
-                  Referral{" "}
-                  <svg
-                    width="10"
-                    height="11"
-                    viewBox="0 0 10 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.5 8L7.5 3"
-                      stroke="white"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M3.4375 3H7.5V7.0625"
-                      stroke="white"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-              </li>
-              <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
-                  Assets{" "}
-                  <svg
-                    width="10"
-                    height="11"
-                    viewBox="0 0 10 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.5 8L7.5 3"
-                      stroke="white"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                    <path
-                      d="M3.4375 3H7.5V7.0625"
-                      stroke="white"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-              </li>
-              <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
-                  Stable Coin{" "}
+                  Farming soon...{" "}
                   <svg
                     width="10"
                     height="11"
@@ -474,38 +384,18 @@ const Footer = () => {
             </h1>
             <ul className="mt-4 space-y-4">
               <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
-                  Company
-                </a>
-              </li>
-              <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
+                <a href="#audits" className="flex gap-1">
                   Audits{" "}
                 </a>
               </li>
               <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
+                <a href="#partners" className="flex gap-1">
                   Partners{" "}
                 </a>
               </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
-                  href="http://"
+                  href="https://solscan.io/token/3fLptZjMgKhPufQN2v1v6xR93mwtYPTwjRq6Q9xPLmD8"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex gap-1"
@@ -516,21 +406,11 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
-                  CoinMarketCap{" "}
-                </a>
-              </li>
-              <li className="text-sm text-[#ffffffde]">
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex gap-1"
-                >
-                  BODC Dex V2{" "}
+                  CoinMarketCap soon...
                 </a>
               </li>
             </ul>
@@ -543,8 +423,8 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
                   Docs
@@ -553,8 +433,8 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
                   Terms of Service{" "}
@@ -563,8 +443,8 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex gap-1"
                 >
                   Privacy Policies{" "}
@@ -580,8 +460,8 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="http://www.partnership@bookodc.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex flex-col gap-1"
                 >
                   <svg
@@ -604,8 +484,8 @@ const Footer = () => {
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="http://www.support@bookodc.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                   className="flex flex-col gap-1"
                 >
                   <svg

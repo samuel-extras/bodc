@@ -15,7 +15,7 @@ const InstructionVideo = () => {
         } `}
         data-aos="fade-up"
       >
-        Earn & Trade like a Pro
+        Many useful Tools{" "}
       </h1>
       <p
         data-aos="fade-up"
@@ -23,7 +23,7 @@ const InstructionVideo = () => {
           inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
         } `}
       >
-        Unlocking DeFi for millions of users.
+        Maximize your rewards{" "}
       </p>
       <div
         className={`transition-all duration-2000 ease-in-out ${

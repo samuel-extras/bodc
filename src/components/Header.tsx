@@ -22,37 +22,24 @@ export default function Header() {
           <div className="w-full">
             <NavigationMenuList className="justify-start w-full ">
               <NavigationMenuItem className="flex-shrink-0">
-                <a href="#">
+                <a href="/">
                   <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
                     <img src="/logo2.jpeg" alt="" className="w-12 h-12" />
                   </NavigationMenuLink>
                 </a>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
+                <a href="#tokenomics">
+                  <NavigationMenuLink className="text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] mx-4">
                     Tokenomics
                   </NavigationMenuLink>
                 </a>
               </NavigationMenuItem>
-              <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className="text-[#a5a5a5] px-6 font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
-                    Company
-                  </NavigationMenuLink>
-                </a>
-              </NavigationMenuItem>
+
               <NavigationMenuItem>
                 <NavigationMenuList className="bg-transparent hover:bg-transparent text-[#a5a5a5] font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] text-base">
                   Products
                 </NavigationMenuList>
-              </NavigationMenuItem>
-              <NavigationMenuItem className="hidden lg:block">
-                <a href="#">
-                  <NavigationMenuLink className="text-[#a5a5a5] px-6 font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
-                    Dex V2
-                  </NavigationMenuLink>
-                </a>
               </NavigationMenuItem>
             </NavigationMenuList>
           </div>

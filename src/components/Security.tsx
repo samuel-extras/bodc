@@ -15,7 +15,7 @@ const Security = () => {
   });
 
   return (
-    <div className="pt-10 px-8 mx-auto max-w-[90rem]">
+    <div className="pt-10 px-8 mx-auto max-w-[90rem]" id="audits">
       <h1
         className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4 transition-all duration-2000 ease-in-out ${
           inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
@@ -44,7 +44,11 @@ const Security = () => {
               : "-translate-x-full -translate-y-full opacity-0"
           }`}
         >
-          <a href="#" target="_blank">
+          <a
+            href="https://audit.cfg.ninja/book-of-duck"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               src="/cfg.png"
               alt="airbnb"
@@ -58,7 +62,7 @@ const Security = () => {
             />
           </a>
         </div>
-        <div
+        {/* <div
           ref={items}
           className={`group cursor-pointer transition-all duration-2000 ease-in-out ${
             itemsinView
@@ -100,7 +104,7 @@ const Security = () => {
               className="w-28 h-28 hidden group-hover:block"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
