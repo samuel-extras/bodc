@@ -37,14 +37,19 @@ const Hero = () => {
           >
             Airdrop
           </Button>
-
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 md:ms-4"
+          <a
+            href="https://www.pinksale.finance/solana/launchpad/2EZ9tsMoiNfSPkYvK3F8bNZP1ChM1VDLe3nGoJF3cCLn"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            {" "}
-            Get BODC
-          </Button>
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 md:ms-4"
+            >
+              {" "}
+              Get BODC
+            </Button>
+          </a>
         </div>
         <div className="flex flex-wrap items-center my-4 gap-y-4">
           <a
@@ -108,13 +113,19 @@ const Hero = () => {
               alt="social_media"
             />
           </Button> */}
-          <div className="w-fit bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85">
-            <Button size="lg" className=" bg-black hover:bg-black rounded-lg">
-              <p className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
-                Get BODC
-              </p>
-            </Button>
-          </div>
+          <a
+            href="https://www.pinksale.finance/solana/launchpad/2EZ9tsMoiNfSPkYvK3F8bNZP1ChM1VDLe3nGoJF3cCLn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-fit bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85">
+              <Button size="lg" className=" bg-black hover:bg-black rounded-lg">
+                <p className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
+                  Get BODC
+                </p>
+              </Button>
+            </div>
+          </a>
         </div>
 
         <div className="flex flex-wrap p-3 rounded-lg border w-fit items-center border-[#222222] gap-px -z-10">
