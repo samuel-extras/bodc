@@ -121,7 +121,7 @@ const Hero = () => {
             <div className="w-fit bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85">
               <Button size="lg" className=" bg-black hover:bg-black rounded-lg">
                 <p className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
-                  Get BODC
+                  PRESALE{" "}
                 </p>
               </Button>
             </div>

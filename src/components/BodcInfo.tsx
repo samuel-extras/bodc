@@ -11,7 +11,7 @@ const BODCInfo = () => {
   return (
     <div
       ref={ref}
-      className={`overflow-hidden px-8 py-10 ease-in-out max-w-[90rem] mx-auto  ${
+      className={` px-8 py-10 ease-in-out max-w-[90rem] mx-auto  ${
         inView ? "" : " "
       }`}
     >
@@ -24,15 +24,19 @@ const BODCInfo = () => {
                 : "-translate-x-full opacity-0"
             }`}
           >
-            <img src="/logo.png" alt="x3" className="animate-moveup" />
             <img
-              src="/coin1.png"
-              className="w-20 h-20 absolute top-0 left-4 animate-moveup"
+              src="/coin.png"
+              alt="x3"
+              className="animate-moveup w-72 h-72 md:w-96 md:h-96"
             />
             <img
               src="/coin2.png"
+              className="w-32 h-32 absolute md:-top-32 -left-10 -top-20 animate-moveup"
+            />
+            <img
+              src="/coin3.png"
               alt="x1"
-              className="w-16 h-16 absolute right-10 -top-11 animate-moveup"
+              className="w-28 h-28 absolute right-10 -top-28 animate-moveup"
             />
           </div>
         </div>
