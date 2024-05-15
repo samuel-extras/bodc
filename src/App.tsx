@@ -1,4 +1,5 @@
 import "./App.css";
+import Allocation from "./components/Allocation";
 import BODCInfo from "./components/BodcInfo";
 import Community from "./components/Community";
 import DevelopmentMap from "./components/DevelopmentMap";
@@ -12,6 +13,8 @@ import Newsletter from "./components/Newsletter";
 import PartnerSlider from "./components/PartnerSlider";
 import Security from "./components/Security";
 import SupportedBlockchain from "./components/SupportedBlockchain";
+import Tokenomics from "./components/Tokenomics";
+import Usecase from "./components/UseCase";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <EcosystemPartners />
       <FeatureSection />
       <BODCInfo />
+      <Tokenomics />
+      <Usecase />
+      <Allocation />
       <PartnerSlider />
       <Security />
       <DevelopmentMap />
