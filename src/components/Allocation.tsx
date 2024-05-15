@@ -44,12 +44,12 @@ const Allocation = () => {
           show: true,
         },
         data: [
-          { value: 230040000, name: "40%" },
-          { value: 115020000, name: "20%" },
-          { value: 28755000, name: "5% " },
-          { value: 28755000, name: "5%" },
-          { value: 28755000, name: " 5%" },
+          { value: 201285000, name: "35%" },
           { value: 143775000, name: "25%" },
+          { value: 115020000, name: "20% " },
+          { value: 57510000, name: "10%" },
+          { value: 28755000, name: " 5%" },
+          { value: 28755000, name: "5%" },
         ],
       },
     ],
@@ -83,30 +83,27 @@ const Allocation = () => {
             </div>
           </div> */}
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#5470c6]">
-            <h1>Community and Ecosystem</h1>
-            <p className="text-sm text-white/60">230,040,000 BODC</p>
+            <h1>Presale</h1>
+            <p className="text-sm text-white/60">201,285,000 BODC</p>
             <p className="text-xs text-white/65">
-              These tokens are allocated to support community growth, engagement
-              initiatives, strategic partnerships, and broader ecosystem
-              incentives that drive user adoption and network activity.
+              Allocated for early investors and participants in the initial
+              funding phase, providing capital for development and marketing.
             </p>
           </div>
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#91cc75]">
             <h1>Staking Rewards</h1>
-            <p className="text-sm text-white/60">115,020,000 BODC</p>
+            <p className="text-sm text-white/60">143,775,000 BODC</p>
             <p className="text-xs text-white/65">
-              Allocated to the project’s advisors, these tokens are vested over
-              a period to ensure ongoing support and guidance from industry
-              experts.
+              Reserved to reward users who participate in staking mechanisms,
+              encouraging long-term holding and network security.
             </p>
           </div>
-          <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#72c0de]">
-            <h1>Advisors</h1>
-            <p className="text-sm text-white/60">28,755,000 BODC</p>
+          <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#fac858] ">
+            <h1>Game Incentives</h1>
+            <p className="text-sm text-white/60">115,020,000 BODC</p>
             <p className="text-xs text-white/65">
-              Allocated to the project’s advisors, these tokens are vested over
-              a period to ensure ongoing support and guidance from industry
-              experts.
+              Used to reward players within the play-to-earn gaming platform,
+              fostering active participation and enhancing the gaming ecosystem.
             </p>
           </div>
         </div>
@@ -118,29 +115,28 @@ const Allocation = () => {
         />
         <div className="space-y-4">
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#ee6667]">
-            <h1>Reserve</h1>
-            <p className="text-sm text-white/60">28,755,000 BODC</p>
+            <h1>Team and Development</h1>
+            <p className="text-sm text-white/60">57,510,000 BODC</p>
             <p className="text-xs text-white/65">
-              Set aside to address future unforeseen needs or strategic
-              opportunities, managed by community governance decisions.
+              Allocated to the project team to fund ongoing development,
+              operations, and support of the BODC platform.
             </p>
           </div>
-          <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#fac858]">
-            <h1>Seed Round</h1>
+          <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#72c0de]">
+            <h1>Marketing and Partnerships</h1>
             <p className="text-sm text-white/60">28,755,000 BODC</p>
             <p className="text-xs text-white/65">
-              Tokens sold during the seed funding round to early backers and
-              institutional investors, with terms structured to support early
-              phase developments and operations.
+              Set aside for marketing activities, community building, and
+              forming strategic partnerships to expand the project’s reach and
+              impact.
             </p>
           </div>
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#3aa372]">
-            <h1>Public Sale</h1>
-            <p className="text-sm text-white/60">143,775,000 BODC</p>
+            <h1>Reserves</h1>
+            <p className="text-sm text-white/60">28,755,000 BODC</p>
             <p className="text-xs text-white/65">
-              These tokens are offered to the public to widen distribution,
-              enhance liquidity, and raise capital for ongoing development and
-              scaling of the ecosystem.
+              Held in reserve to provide flexibility for unforeseen expenses or
+              new opportunities requiring additional funding.
             </p>
           </div>
         </div>

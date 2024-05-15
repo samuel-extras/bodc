@@ -8,13 +8,17 @@ const Tokenomics = () => {
     trackVisibility: true,
   });
   return (
-    <div className="text-white mx-auto max-w-[90rem] p-8" ref={ref}>
+    <div
+      className="text-white mx-auto max-w-[90rem] p-8"
+      ref={ref}
+      id="tokenomics"
+    >
       <h1
         className={`text-[#fff9] mb-2 font-normal text-lg text-center transition-all duration-2000 ease-in-out ${
           inView ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
         } `}
       >
-        Tokenomics of Book of Duck (BODC){" "}
+        BODC Tokenomics
       </h1>
       <p
         className={`text-[#fff] mb-12 font-normal text-center transition-all duration-2000 ease-in-out ${
@@ -43,7 +47,7 @@ const Tokenomics = () => {
             <h1 className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
               Total Supply{" "}
             </h1>
-            <p>575,100,000</p>
+            <p> 575,100,000 BODC</p>
           </div>
         </div>
         <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">

@@ -30,7 +30,7 @@ const Usecase = () => {
           inView ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
         }`}
       >
-        <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">
+        {/* <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">
           <div className=" bg-black hover:bg-black rounded-lg w-full h-full py-3 px-5">
             <h1 className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
               Inflation Schedule{" "}
@@ -49,32 +49,31 @@ const Usecase = () => {
               </li>
             </ul>{" "}
           </div>
-        </div>
-        <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">
+        </div> */}
+        <div className="w-full col-span-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">
           <div className=" bg-black hover:bg-black rounded-lg w-full h-full py-3 px-5">
             <h1 className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
               Utility and Use Cases
             </h1>
             <ul className="text-white text-sm list-outside list-disc marker:text-[#FFD700] space-y-3">
               <li>
-                Governance: Token holders have the right to vote on key project
-                decisions, playing a critical role in shaping the future
-                direction of the ecosystem.
+                Staking: Tokens can be staked in various pools to earn rewards,
+                enhancing token stability and providing holders with passive
+                income.
               </li>
               <li>
-                Staking: By staking BODC, users contribute to network security
-                and receive staking rewards, promoting long-term holding and
-                community stability.
+                Gaming: Tokens are used within the play-to-earn game for
+                transactions, purchasing in-game items, and as rewards for
+                gameplay achievements.
               </li>
               <li>
-                Payments: BODC tokens are used for transactions within the
-                ecosystem, including fees for services, access to applications,
-                and participation in network activities.
+                Governance: Token holders can participate in governance
+                decisions, influencing the direction and policies of the BODC
+                project.
               </li>
               <li>
-                Rewards and Incentives: Community engagement and contributions
-                are incentivized with BODC tokens, enhancing user interaction
-                and satisfaction.
+                Trading: Beyond utility within the ecosystem, BODC tokens can be
+                traded on exchanges, providing liquidity and price discovery.
               </li>
             </ul>
           </div>
@@ -82,21 +81,14 @@ const Usecase = () => {
         <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">
           <div className=" bg-black hover:bg-black rounded-lg w-full h-full py-3 px-5">
             <h1 className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
-              Release Schedule{" "}
+              Emission Schedule{" "}
             </h1>
             <ul className="text-white text-sm list-outside list-disc marker:text-[#FFD700] space-y-3">
               <li>
-                Advisors’ Tokens: Released over a four-year period with a
-                one-year cliff to ensure prolonged engagement.
-              </li>
-              <li>
-                Seed Round Tokens: Structured release over two years to
-                integrate seed investors into the market without disrupting
-                token economics.
-              </li>
-              <li>
-                Public Sale Tokens: Immediately available to foster broad
-                participation and support from the wider community.
+                The emission of BODC tokens will be controlled and phased over
+                several years to manage inflation and encourage sustainable
+                growth of the ecosystem. Details of the emission schedule should
+                be transparent and aligned with project milestones.
               </li>
             </ul>{" "}
           </div>
@@ -104,18 +96,13 @@ const Usecase = () => {
         <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20">
           <div className=" bg-black hover:bg-black rounded-lg w-full h-full py-3 px-5">
             <h1 className="bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] md:text-lg font-bold hover:opacity-85 text-transparent bg-clip-text">
-              Security Measures{" "}
+              Security and Compliance
             </h1>
             <ul className="text-white text-sm list-outside list-disc marker:text-[#FFD700] space-y-3">
               <li>
-                Smart Contract Audits: Conducted by leading security firms to
-                ensure the integrity and safety of the blockchain and its
-                operations.
-              </li>
-              <li>
-                Liquidity Locks: A portion of the funds raised from public sales
-                will be locked in liquidity pools to stabilize and secure market
-                activity.
+                Ensuring compliance with regulatory standards and implementing
+                robust security measures are crucial to protect token holders
+                and sustain the integrity of the BODC ecosystem.
               </li>
             </ul>{" "}
           </div>

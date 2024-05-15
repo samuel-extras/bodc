@@ -29,7 +29,7 @@ const FeatureSection = () => {
   });
 
   return (
-    <div className="px-8 py-10 max-w-[90rem] mx-auto">
+    <div className="px-8 py-10 max-w-[90rem] mx-auto" id="product">
       <div className="flex w-full flex-col lg:flex-row justify-between flex-wrap items-center mx-auto">
         <p
           className={`text-[#ffffffde] text-2xl md:text-4xl font-bold text-center mb-4 transition-all duration-2000 ease-in-out ${
