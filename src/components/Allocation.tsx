@@ -74,8 +74,8 @@ const Allocation = () => {
           {/* <div className="w-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85">
             <div className=" bg-black hover:bg-black rounded-lg w-full h-full p-2">
               <h1>Total Supply</h1>
-              <p className="text-sm">575,100,000 BODC,</p>
-              <p className="text-xs">
+              <p className="text-sm text-white/60">575,100,000 BODC,</p>
+              <p className="text-xs text-white/65">
                 The initial total supply of BODC tokens is set at 575,100,000
                 $BODC, with an inflationary mechanism designed to stimulate
                 active participation within the ecosystem.
@@ -84,8 +84,8 @@ const Allocation = () => {
           </div> */}
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#5470c6]">
             <h1>Community and Ecosystem</h1>
-            <p className="text-sm">230,040,000 BODC</p>
-            <p className="text-xs">
+            <p className="text-sm text-white/60">230,040,000 BODC</p>
+            <p className="text-xs text-white/65">
               These tokens are allocated to support community growth, engagement
               initiatives, strategic partnerships, and broader ecosystem
               incentives that drive user adoption and network activity.
@@ -93,8 +93,8 @@ const Allocation = () => {
           </div>
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#91cc75]">
             <h1>Staking Rewards</h1>
-            <p className="text-sm">115,020,000 BODC</p>
-            <p className="text-xs">
+            <p className="text-sm text-white/60">115,020,000 BODC</p>
+            <p className="text-xs text-white/65">
               Allocated to the project’s advisors, these tokens are vested over
               a period to ensure ongoing support and guidance from industry
               experts.
@@ -102,8 +102,8 @@ const Allocation = () => {
           </div>
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#72c0de]">
             <h1>Advisors</h1>
-            <p className="text-sm">28,755,000 BODC</p>
-            <p className="text-xs">
+            <p className="text-sm text-white/60">28,755,000 BODC</p>
+            <p className="text-xs text-white/65">
               Allocated to the project’s advisors, these tokens are vested over
               a period to ensure ongoing support and guidance from industry
               experts.
@@ -119,16 +119,16 @@ const Allocation = () => {
         <div className="space-y-4">
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#ee6667]">
             <h1>Reserve</h1>
-            <p className="text-sm">28,755,000 BODC</p>
-            <p className="text-xs">
+            <p className="text-sm text-white/60">28,755,000 BODC</p>
+            <p className="text-xs text-white/65">
               Set aside to address future unforeseen needs or strategic
               opportunities, managed by community governance decisions.
             </p>
           </div>
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#fac858]">
             <h1>Seed Round</h1>
-            <p className="text-sm">28,755,000 BODC</p>
-            <p className="text-xs">
+            <p className="text-sm text-white/60">28,755,000 BODC</p>
+            <p className="text-xs text-white/65">
               Tokens sold during the seed funding round to early backers and
               institutional investors, with terms structured to support early
               phase developments and operations.
@@ -136,8 +136,8 @@ const Allocation = () => {
           </div>
           <div className="bg-white p-2 bg-opacity-10 rounded-2xl backdrop-filter border-r-8 border-[#3aa372]">
             <h1>Public Sale</h1>
-            <p className="text-sm">143,775,000 BODC</p>
-            <p className="text-xs">
+            <p className="text-sm text-white/60">143,775,000 BODC</p>
+            <p className="text-xs text-white/65">
               These tokens are offered to the public to widen distribution,
               enhance liquidity, and raise capital for ongoing development and
               scaling of the ecosystem.
