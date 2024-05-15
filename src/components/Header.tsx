@@ -72,7 +72,10 @@ export default function Header() {
             <NavigationMenuItem>
               <a href="#">
                 <NavigationMenuLink className="">
-                  <Button className="text-[#FFD701] px-8 font-medium hover:opacity-85 bg-gradient-to-r from-[#000] to-[#000] ">
+                  <Button
+                    variant="outline"
+                    className="bg-transparent hover:bg-transparent text-black hover:text-black border-black"
+                  >
                     Enter App
                   </Button>
                 </NavigationMenuLink>
