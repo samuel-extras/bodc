@@ -7,8 +7,9 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-import { Sheet, SheetContent } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetOverlay } from "@/components/ui/sheet";
 import { Button } from "./ui/button";
+import { X } from "lucide-react";
 
 export default function Header() {
   const [isTOCOpen, setIsTOCOpen] = React.useState(false);
@@ -106,7 +107,21 @@ export default function Header() {
                     </linearGradient>
                   </defs>
                 </svg>
+                <SheetOverlay
+                  onClick={() => {
+                    setIsTOCOpen(false);
+                  }}
+                />
                 <SheetContent side="top" className="bg-[#FFD700]">
+                  <button
+                    onClick={() => {
+                      setIsTOCOpen(false);
+                    }}
+                    className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-white transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-slate-100 dark:ring-offset-slate-950 dark:focus:ring-slate-300 dark:data-[state=open]:bg-slate-800"
+                  >
+                    <X className="h-4 w-4" />
+                    <span className="sr-only">Close</span>
+                  </button>
                   <div className="flex flex-col gap-4">
                     <a
                       onClick={() => {
