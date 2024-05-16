@@ -62,6 +62,20 @@ export function CarouselPlugin() {
           >
             <img src="/p4.png" alt="OKX_logo" className="h-32 w-auto mb-10" />
           </a>
+          <a
+            href="https://www.pinksale.finance"
+            target="_blank"
+            className="w-full flex justify-center items-center"
+          >
+            <img src="/p5.png" alt="Linea_logo" className="h-32 w-auto mb-10" />
+          </a>
+          <a
+            href="https://www.dexview.com"
+            target="_blank"
+            className="w-full flex justify-center items-center"
+          >
+            <img src="/p6.png" alt="OKX_logo" className="h-32 w-auto mb-10" />
+          </a>
         </CarouselItem>
         {/* <CarouselItem className="grid grid-cols-2 w-full">
           <a
@@ -489,6 +503,20 @@ const EcosystemPartners = () => {
             className="w-full flex justify-center items-center"
           >
             <img src="/p4.png" alt="OKX_logo" className="h-32 w-auto -mb-20" />
+          </a>
+          <a
+            href="https://www.pinksale.finance"
+            target="_blank"
+            className="w-full flex justify-center items-center"
+          >
+            <img src="/p5.png" alt="OKX_logo" className="h-32 w-auto -mb-20" />
+          </a>
+          <a
+            href="https://www.dexview.com"
+            target="_blank"
+            className="w-full flex justify-center items-center"
+          >
+            <img src="/p6.png" alt="OKX_logo" className="h-32 w-auto -mb-20" />
           </a>
         </div>
         {/* <div className="flex justify-center gap-4 -my-12">
