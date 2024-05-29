@@ -1,3 +1,5 @@
+import { Link } from "@tanstack/react-router";
+
 const Footer = () => {
   return (
     <footer className=" relative before:content-[''] before:absolute before:-top-1 before:w-full before:h-1 before:left-0 before:bg-gradient-to-r before:from-[rgb(155,243,203)] before:from-[30%] before:via-[rgb(244,66,52)] before:via-[60.42%]  before:to-[rgb(159,58,131)] before:to-[100.13%] ">
@@ -256,6 +258,31 @@ const Footer = () => {
               Products
             </h1>
             <ul className="mt-4 space-y-4">
+              <li className="text-sm text-[#ffffffde]">
+                <Link to="/quack" className="flex gap-1">
+                  Quack Futures{" "}
+                  {/* <svg
+                    width="10"
+                    height="11"
+                    viewBox="0 0 10 11"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.5 8L7.5 3"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M3.4375 3H7.5V7.0625"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg> */}
+                </Link>
+              </li>
               <li className="text-sm text-[#ffffffde]">
                 <a
                   href="#"

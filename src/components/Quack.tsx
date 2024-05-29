@@ -33,13 +33,20 @@ const Quack = () => {
                   className={` relative transition-all duration-2000 ease-in-out py-4 px-10 md:hidden w-full`}
                 >
                   <div className="flex justify-center gap-28 mb-2 ">
-                    <img src="/coin2.png" className="w-16 h-16 " />
-                    <img src="/coin3.png" alt="x1" className="w-16 h-16 " />
+                    <img
+                      src="/coin2.png"
+                      className="w-16 h-16 animate-moveup"
+                    />
+                    <img
+                      src="/coin3.png"
+                      alt="x1"
+                      className="w-16 h-16 animate-moveup"
+                    />
                   </div>
                   <img
                     src="/coin.png"
                     alt="x3"
-                    className=" w-36 h-36 md:w-40 md:h-40 mx-auto -mt-10"
+                    className=" w-36 h-36 md:w-40 md:h-40 mx-auto -mt-10 animate-moveup"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row gap-4 items-center md:text-start justify-between">
@@ -87,16 +94,16 @@ const Quack = () => {
                 <img
                   src="/coin.png"
                   alt="x3"
-                  className=" w-36 h-36 md:w-40 md:h-40"
+                  className=" w-36 h-36 md:w-40 md:h-40 animate-moveup"
                 />
                 <img
                   src="/coin2.png"
-                  className="w-16 h-16 absolute  left-0 top-0 "
+                  className="w-16 h-16 absolute  left-0 top-0 animate-moveup"
                 />
                 <img
                   src="/coin3.png"
                   alt="x1"
-                  className="w-16 h-16 absolute right-0 top-2 "
+                  className="w-16 h-16 absolute right-0 top-2 animate-moveup"
                 />
               </div>
             </div>
