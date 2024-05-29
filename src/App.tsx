@@ -1,47 +1,19 @@
+import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { routeTree } from "./routeTree.gen";
 import "./App.css";
-import Allocation from "./components/Allocation";
-import BODCInfo from "./components/BodcInfo";
-import Community from "./components/Community";
-import DevelopmentMap from "./components/DevelopmentMap";
-import EcosystemPartners from "./components/EcosystemPartners";
-import FeatureSection from "./components/FeatureSection";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import InstructionVideo from "./components/InstructionVideo";
-import Newsletter from "./components/Newsletter";
-import PartnerSlider from "./components/PartnerSlider";
-import Security from "./components/Security";
-import SupportedBlockchain from "./components/SupportedBlockchain";
-import Tokenomics from "./components/Tokenomics";
-import Usecase from "./components/UseCase";
+// Create a new router instance
+const router = createRouter({ routeTree });
 
-function App() {
+// Register the router instance for type safety
+declare module "@tanstack/react-router" {
+  interface Register {
+    router: typeof router;
+  }
+}
+export default function App() {
   return (
-    <main className="overflow-hidden font-geomGraphic">
-      <Header />
-      <Hero />
-      <SupportedBlockchain />
-      <InstructionVideo />
-      <EcosystemPartners />
-      <FeatureSection />
-      <BODCInfo />
-      <Tokenomics />
-      <Usecase />
-      <Allocation />
-      <PartnerSlider />
-      <Security />
-      <DevelopmentMap />
-      <Community />
-      <Newsletter />
-      <Footer />
-      <div className="bg-[#282828] py-5 mx-auto">
-        <p className="text-sm text-center text-[#ffffffde]">
-          © 2024 Bookodc. All Rights Reserved
-        </p>
-      </div>
-    </main>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
-
-export default App;

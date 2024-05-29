@@ -10,6 +10,7 @@ import {
 import { Sheet, SheetContent, SheetOverlay } from "@/components/ui/sheet";
 import { Button } from "./ui/button";
 import { X } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 
 export default function Header() {
   const [isTOCOpen, setIsTOCOpen] = React.useState(false);
@@ -24,7 +25,7 @@ export default function Header() {
         </a>
         <NavigationMenu className="flex-1 hidden md:block">
           <div className="w-full">
-            <NavigationMenuList className="justify-start w-full ">
+            <NavigationMenuList className="justify-start w-full gap-x-4">
               <NavigationMenuItem className="flex-shrink-0">
                 <a href="/">
                   <NavigationMenuLink className="text-black font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#DD3B3C]">
@@ -34,7 +35,7 @@ export default function Header() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <a href="#tokenomics">
-                  <NavigationMenuLink className="text-black font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#000] to-[#000] mx-4">
+                  <NavigationMenuLink className="text-black font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#000] to-[#000]">
                     Tokenomics
                   </NavigationMenuLink>
                 </a>
@@ -46,6 +47,13 @@ export default function Header() {
                     Products
                   </NavigationMenuLink>
                 </a>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link to="/quack">
+                  <NavigationMenuLink className="bg-transparent hover:bg-transparent text-black font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#000] to-[#000] text-base">
+                    Quack Futures
+                  </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
             </NavigationMenuList>
           </div>
@@ -70,16 +78,14 @@ export default function Header() {
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <a href="#">
-                <NavigationMenuLink className="">
-                  <Button
-                    variant="outline"
-                    className="bg-transparent hover:bg-transparent text-black hover:text-black border-black"
-                  >
-                    Enter App
-                  </Button>
-                </NavigationMenuLink>
-              </a>
+              <NavigationMenuLink className="">
+                <Button
+                  variant="outline"
+                  className="bg-transparent hover:bg-transparent text-black hover:text-black border-black"
+                >
+                  Connect Wallet
+                </Button>
+              </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem className=" md:hidden">
               <Sheet open={isTOCOpen}>
@@ -147,6 +153,16 @@ export default function Header() {
                         Products
                       </span>
                     </a>
+                    <Link to="/quack">
+                      <span
+                        onClick={() => {
+                          setIsTOCOpen(false);
+                        }}
+                        className="bg-transparent hover:bg-transparent text-black font-medium hover:text-transparent bg-clip-text bg-gradient-to-r from-[#000] to-[#000] text-base"
+                      >
+                        Quack Futures
+                      </span>
+                    </Link>
                   </div>
                 </SheetContent>
               </Sheet>
