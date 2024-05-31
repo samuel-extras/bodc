@@ -16,7 +16,10 @@ const Quack = () => {
     trackVisibility: true,
   });
   return (
-    <div className="text-white mx-auto max-w-7xl sm:px-8 py-8 px-2" ref={ref}>
+    <div
+      className="text-white mx-auto max-w-7xl sm:px-8 py-8 px-2 font-inter"
+      ref={ref}
+    >
       <div
         className={`grid md:grid-cols-2 gap-8 transition-all duration-2000 ease-in-out ${
           inView ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
@@ -117,12 +120,12 @@ const Quack = () => {
                 <p className="font-bold">128987S67 BODC</p>
                 <Button
                   type="button"
-                  className="uppercase bg-[#FFD700] hover:bg-white text-black h-6 font-bold rounded px-8"
+                  className=" bg-[#FFD700] hover:bg-white text-black h-6 font-bold rounded px-8"
                 >
                   max
                 </Button>
               </div>
-              <div className="flex justify-between gap-2 sm:gap-4 mb-6">
+              <div className="flex justify-between gap-2 lg:gap-4 mb-6">
                 <Button
                   className="bg-transparent border-2 border-[#FFD700] px-5"
                   variant="outline"
@@ -173,12 +176,12 @@ const Quack = () => {
                 <p className="font-bold">128987S67 BODC</p>
                 <Button
                   type="button"
-                  className="uppercase bg-[#FFD700] hover:bg-white text-black h-6 font-bold rounded px-8"
+                  className=" bg-[#FFD700] hover:bg-white text-black h-6 font-bold rounded px-8"
                 >
                   max
                 </Button>
               </div>
-              <div className="flex justify-between gap-2 sm:gap-4 mb-6">
+              <div className="flex justify-between gap-2 lg:gap-4 mb-6">
                 <Button
                   className="bg-transparent border-2 border-[#FFD700] px-5"
                   variant="outline"
@@ -219,6 +222,55 @@ const Quack = () => {
                 UNQUACK
               </Button>
             </form>
+          </div>
+        </div>
+
+        <div className="w-full col-span-full bg-gradient-to-r from-[#FFD700] to-[#DD3B3C] rounded-lg p-px hover:opacity-85 min-h-20 overflow-hidden">
+          <div className=" bg-black hover:bg-black rounded-lg w-full h-full py-5 px-4 sm:px-8  gap-10 ">
+            <h1 className="text-xl md:text-3xl mb-4 text-center md:text-start font-semibold">
+              Earn more with your teams with Quack Futures ...{" "}
+            </h1>
+            <div className="grid md:grid-cols-2 gap-2 md:mb-10">
+              <p className="text-center md:text-start">
+                You earn 10% of their daily Quack rewards
+              </p>
+              <div className="grid md:flex items-center my-8 md:my-0">
+                <p className="font-bold text-center md:text-start">
+                  YOUR REFERRAL LINK: &nbsp;{" "}
+                </p>
+                <p className="text-sm text-center md:text-start font-bold">
+                  {" "}
+                  bookodc.com/4HU6....MfH{" "}
+                </p>
+              </div>
+            </div>
+            <div className="space-y-3">
+              <dl className="grid md:grid-cols-14 gap-2 md:gap-8">
+                <dt className="md:col-span-8 break-all text-center md:text-start">
+                  4HU6PSwXEyvcHZFE6wvastKbnKoZDRpwcgGNYway1MfH
+                </dt>
+                <dd className="font-bold md:col-span-6 text-center md:text-start">
+                  102898767 BODC
+                </dd>
+              </dl>
+              <dl className="grid md:grid-cols-14 gap-2 md:gap-8">
+                <dt className="md:col-span-8 break-all text-center md:text-start">
+                  4HU6PSwXEyvcHZFE6wvastKbnKoZDRpwcgGNYway1MfH
+                </dt>
+                <dd className="font-bold md:col-span-6 text-center md:text-start">
+                  102898767 BODC
+                </dd>
+              </dl>
+
+              <dl className="grid md:grid-cols-14 gap-3 md:gap-8">
+                <dt className="md:col-span-8 flex justify-center md:justify-start">
+                  <div className="w-4/5 h-8 bg-[#FFD700] bg-opacity-25 rounded "></div>
+                </dt>
+                <dd className="md:col-span-6 flex justify-center md:justify-start w-full mx-auto ">
+                  <div className="w-1/4 h-8 bg-[#FFD700] bg-opacity-25 rounded mx-auto"></div>
+                </dd>
+              </dl>
+            </div>
           </div>
         </div>
       </div>

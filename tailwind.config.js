@@ -28,6 +28,7 @@ module.exports = {
       },
       fontFamily: {
         geomGraphic: ["Geom Graphic W03 Regular", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       gridTemplateColumns: {
         // Simple 14 column grid

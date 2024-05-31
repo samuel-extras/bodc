@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 /* @import url(https://db.onlinewebfonts.com/c/b0b8a10e9c97391e66297c8b5398984f?family=Geom+Graphic+W03+Regular); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @font-face {
   font-family: "Geom Graphic W03 Regular";
   src: url("https://db.onlinewebfonts.com/t/b0b8a10e9c97391e66297c8b5398984f.eot");
-  src: url("https://db.onlinewebfonts.com/t/b0b8a10e9c97391e66297c8b5398984f.eot?#iefix")
+  src:
+    url("https://db.onlinewebfonts.com/t/b0b8a10e9c97391e66297c8b5398984f.eot?#iefix")
       format("embedded-opentype"),
     url("https://db.onlinewebfonts.com/t/b0b8a10e9c97391e66297c8b5398984f.woff2")
       format("woff2"),
