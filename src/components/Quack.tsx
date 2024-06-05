@@ -4,6 +4,8 @@ import { Button } from "./ui/button";
 import CircleCaretSVGComponent from "./icon/CircleCaret";
 import { Input } from "./ui/input";
 import { useState } from "react";
+import CopySVGComponent from "./icon/Copy";
+import { useToast } from "@/components/ui/use-toast";
 const Quack = () => {
   const [quack, setQuack] = useState(0);
   const [quackF, setQuackF] = useState(false);
@@ -15,6 +17,8 @@ const Quack = () => {
     delay: 1000,
     trackVisibility: true,
   });
+  const { toast } = useToast();
+
   return (
     <div
       className="text-white mx-auto max-w-7xl sm:px-8 py-8 px-2 font-inter"
@@ -238,9 +242,21 @@ const Quack = () => {
                 <p className="font-bold text-center md:text-start">
                   YOUR REFERRAL LINK: &nbsp;{" "}
                 </p>
-                <p className="text-sm text-center md:text-start font-bold">
+                <p className="text-sm text-center md:text-start font-bold inline-flex items-center">
                   {" "}
                   bookodc.com/4HU6....MfH{" "}
+                  <CopySVGComponent
+                    className="ml-2 cursor-pointer"
+                    onClick={() => {
+                      navigator.clipboard.writeText(
+                        "bookodc.com/3fLptZjMgKhPufQN2v1v6xR93mwtYPTwjRq6Q9xPLmD8"
+                      );
+                      toast({
+                        title: "Copied",
+                        description: "Copied to clipboard",
+                      });
+                    }}
+                  />
                 </p>
               </div>
             </div>
@@ -262,7 +278,8 @@ const Quack = () => {
                 </dd>
               </dl>
 
-              <dl className="grid md:grid-cols-14 gap-3 md:gap-8">
+              {/* <dl className="grid md:grid-cols-14 gap-3 md:gap-8 hidden"> */}
+              <dl className=" hidden">
                 <dt className="md:col-span-8 flex justify-center md:justify-start">
                   <div className="w-4/5 h-8 bg-[#FFD700] bg-opacity-25 rounded "></div>
                 </dt>
